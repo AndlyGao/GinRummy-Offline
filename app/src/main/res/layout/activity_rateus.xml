@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frm_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transperant">
+
+    <FrameLayout
+        android:id="@+id/frm_popup"
+        android:layout_width="900px"
+        android:layout_height="600px"
+        android:layout_gravity="center"
+        android:background="@drawable/popup"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="78px"
+            android:gravity="center"
+            android:text="Rate Us"
+            android:textColor="@color/yellow"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lnr_middle"
+            android:layout_width="805px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="140px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_rateus_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:gravity="center"
+                android:text="Love Gin Rummy Offline? Tap on star to Rate us!"
+                android:textColor="@color/yellow"
+                android:textSize="28px"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/lnr_star_list"
+                android:layout_width="550px"
+                android:layout_height="300px"
+                android:layout_gravity="center"
+                android:layout_marginTop="15px"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lnr_five_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="60px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_text5"
+                        android:layout_width="198px"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Excellent"
+                        android:textColor="@color/white"
+                        android:textSize="32px"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/lnr_five_start_bg"
+                        android:layout_width="352px"
+                        android:layout_height="56px"
+                        android:background="@drawable/bkg_1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_one_five"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="20px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_one_five"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_two_five"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_two_five"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_three_five"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_three_five"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_four_five"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_four_five"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_five_five"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_five_five"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_four_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="60px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_text4"
+                        android:layout_width="198px"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Very Good"
+                        android:textColor="@color/white"
+                        android:textSize="32px"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/lnr_four_start_bg"
+                        android:layout_width="283px"
+                        android:layout_height="56px"
+                        android:background="@drawable/bkg_2"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_one_four"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="20px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_one_four"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_two_four"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_two_four"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_three_four"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_three_four"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_four_four"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_four_four"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_three_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="60px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_text3"
+                        android:layout_width="198px"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Good"
+                        android:textColor="@color/white"
+                        android:textSize="32px"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/lnr_three_start_bg"
+                        android:layout_width="208px"
+                        android:layout_height="56px"
+                        android:background="@drawable/bkg_3"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_one_three"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="20px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_one_three"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_two_three"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_two_three"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_three_three"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_three_three"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_two_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="60px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_text2"
+                        android:layout_width="198px"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Ok"
+                        android:textColor="@color/white"
+                        android:textSize="32px"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/lnr_two_start_bg"
+                        android:layout_width="146px"
+                        android:layout_height="56px"
+                        android:background="@drawable/bkg_4"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_one_two"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="20px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_one_two"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_two_two"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="30px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_two_two"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnr_one_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="60px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_text1"
+                        android:layout_width="198px"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Not Bad"
+                        android:textColor="@color/white"
+                        android:textSize="32px"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/lnr_one_start_bg"
+                        android:layout_width="77px"
+                        android:layout_height="56px"
+                        android:background="@drawable/bkg_1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/iv_star_bg_one_one"
+                            android:layout_width="38px"
+                            android:layout_height="37px"
+                            android:layout_marginLeft="20px"
+                            android:background="@drawable/bkg_star">
+
+                            <ImageView
+                                android:id="@+id/iv_star_one_one"
+                                android:layout_width="34px"
+                                android:layout_height="33px"
+                                android:layout_gravity="center"
+                                android:background="@drawable/star1"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_btns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_feedback"
+                    android:layout_width="180px"
+                    android:layout_height="70px"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5px"
+                    android:background="@drawable/profile_bg"
+                    android:gravity="center"
+                    android:text="@string/Feedback"
+                    android:textColor="@color/yellow"
+                    android:textSize="32px"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="180px"
+                    android:layout_height="70px"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginTop="5px"
+                    android:background="@drawable/profile_bg"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textColor="@color/yellow"
+                    android:textSize="32px"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_gravity="right"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="110px"
+            android:background="@drawable/closebtn" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

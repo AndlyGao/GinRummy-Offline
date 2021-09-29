@@ -1,0 +1,111 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/savanmacbook/Desktop/GinRummy-Offline/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "map": [
+                {
+                    "source": "/Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0d411fd3565912941bc7823e516216e/facebook-login-4.42.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,218,381,542,655,743,830,910,1000,1097,1212,1326,1424,1522,1631,1747,1872,1955,2040,2240,2334,2444,2566,2678",
+                        "endColumns": "162,162,160,112,87,86,79,89,96,114,113,97,97,108,115,124,82,84,199,93,109,121,111,173",
+                        "endOffsets": "213,376,537,650,738,825,905,995,1092,1207,1321,1419,1517,1626,1742,1867,1950,2035,2235,2329,2439,2561,2673,2847"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1937,2100,2263,2424,2537,2625,2712,2792,2882,2979,3094,3208,3306,3404,3513,3629,3754,3837,3922,4122,4216,4326,4448,4560",
+                        "endColumns": "162,162,160,112,87,86,79,89,96,114,113,97,97,108,115,124,82,84,199,93,109,121,111,173",
+                        "endOffsets": "2095,2258,2419,2532,2620,2707,2787,2877,2974,3089,3203,3301,3399,3508,3624,3749,3832,3917,4117,4211,4321,4443,4555,4729"
+                    }
+                },
+                {
+                    "source": "/Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "285,389,601,729,836,1066,1197,1344,1482,1736,1846,2062,2196,2415,2620,2719,2809",
+                        "endColumns": "103,211,127,106,229,130,146,137,253,109,215,133,218,204,98,89,108",
+                        "endOffsets": "388,600,728,835,1065,1196,1343,1481,1735,1845,2061,2195,2414,2619,2718,2808,2917"
+                    },
+                    "to": {
+                        "startLines": "43,44,45,46,47,48,49,50,52,53,54,55,56,57,58,59,60",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4734,4842,5054,5186,5297,5527,5662,5813,6175,6429,6543,6759,6897,7116,7325,7428,7522",
+                        "endColumns": "107,211,131,110,229,134,150,141,253,113,215,137,218,208,102,93,112",
+                        "endOffsets": "4837,5049,5181,5292,5522,5657,5808,5950,6424,6538,6754,6892,7111,7320,7423,7517,7630"
+                    }
+                },
+                {
+                    "source": "/Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/362e7c2e809c6774314676fb85490f6c/play-services-ads-11.8.0/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "239,316,440,506,571,662,777",
+                        "endColumns": "76,123,65,64,90,114,69",
+                        "endOffsets": "315,439,505,570,661,776,846"
+                    },
+                    "to": {
+                        "startLines": "61,62,63,64,65,66,67",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "7635,7716,7844,7914,7983,8078,8197",
+                        "endColumns": "80,127,69,68,94,118,73",
+                        "endOffsets": "7711,7839,7909,7978,8073,8192,8266"
+                    }
+                },
+                {
+                    "source": "/Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "287",
+                        "endColumns": "219",
+                        "endOffsets": "506"
+                    },
+                    "to": {
+                        "startLines": "51",
+                        "startColumns": "4",
+                        "startOffsets": "5955",
+                        "endColumns": "219",
+                        "endOffsets": "6170"
+                    }
+                },
+                {
+                    "source": "/Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7fece47b1c5a94c17222a2554c5e81bc/appcompat-v7-27.0.2/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,529,645,775,858,938,1034,1144,1256,1359,1470,1577,1679,1838,1937",
+                        "endColumns": "110,114,110,86,115,129,82,79,95,109,111,102,110,106,101,158,98,85",
+                        "endOffsets": "211,326,437,524,640,770,853,933,1029,1139,1251,1354,1465,1572,1674,1833,1932,2018"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,68",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,529,645,775,858,938,1034,1144,1256,1359,1470,1577,1679,1838,8271",
+                        "endColumns": "110,114,110,86,115,129,82,79,95,109,111,102,110,106,101,158,98,85",
+                        "endOffsets": "211,326,437,524,640,770,853,933,1029,1139,1251,1354,1465,1572,1674,1833,1932,8352"
+                    }
+                },
+                {
+                    "source": "/Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/04b5fb7db9d31745cd2a415f9f1ed83c/support-compat-27.0.2/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "69",
+                        "startColumns": "4",
+                        "startOffsets": "8357",
+                        "endColumns": "100",
+                        "endOffsets": "8453"
+                    }
+                }
+            ]
+        }
+    ]
+}

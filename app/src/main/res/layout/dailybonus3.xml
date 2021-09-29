@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+
+    <FrameLayout
+        android:id="@+id/mainbgframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="@drawable/main_bg" />
+
+
+    <ImageView
+        android:id="@+id/ivlinetittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line3"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_title"
+        android:gravity="center"
+        android:text="Daily Bonus"
+        android:textColor="@color/yellow" />
+
+
+    <LinearLayout
+        android:id="@+id/linearMAin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100px"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lnMaincenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:gravity="center"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/lnfrmreward1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvday1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Day 1"
+                    android:textColor="@color/yellow"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmInner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivmiddlemain1"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/dailyrewardbk2m" />
+
+                    <TextView
+                        android:id="@+id/tvtodtom1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Day 1"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvCongras1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/Congratulations"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivmiddlechip1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/s1" />
+
+                    <TextView
+                        android:id="@+id/tvinnerchip1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/d_bkgchips_unselect"
+                        android:gravity="center"
+                        android:text="1000 Chips"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivtoday1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/today" />
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnfrmreward2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvday2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Day 2"
+                    android:textColor="@color/yellow"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmInner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivmiddlemain2"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/dailyrewardbk1" />
+
+                    <TextView
+                        android:id="@+id/tvtodtom2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Day 2"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvCongras2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/Congratulations"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivmiddlechip2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/s1" />
+
+                    <TextView
+                        android:id="@+id/tvinnerchip2"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/d_bkgchips_unselect"
+                        android:gravity="center"
+                        android:text="2000 Chips"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivtoday2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/today" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnfrmreward3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvday3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Day 3"
+                    android:textColor="@color/yellow"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmInner3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivmiddlemain3"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/dailyrewardbk1" />
+
+                    <TextView
+                        android:id="@+id/tvCongras3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/Congratulations"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvtodtom3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Day 3"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvinnerchip3"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/d_bkgchips_unselect"
+                        android:gravity="center"
+                        android:text="5000 Chips"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivtoday3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/today" />
+
+                    <ImageView
+                        android:id="@+id/ivmiddlechip3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/s1" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnfrmreward4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvday4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Day 4"
+                    android:textColor="@color/yellow"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmInner4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivmiddlemain4"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/dailyrewardbk1" />
+
+                    <TextView
+                        android:id="@+id/tvtodtom4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Day 4"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvCongras4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/Congratulations"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivmiddlechip4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/s1" />
+
+                    <TextView
+                        android:id="@+id/tvinnerchip4"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/d_bkgchips_unselect"
+                        android:gravity="center"
+                        android:text="10000 Chips"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivtoday4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/today" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnMaincenter2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:id="@+id/lnfrmreward5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvday5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Day 5"
+                    android:textColor="@color/yellow"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmInner5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivmiddlemain5"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/dailyrewardbk1" />
+
+                    <TextView
+                        android:id="@+id/tvtodtom5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Day 5"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvCongras5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/Congratulations"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvinnerchip5"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/d_bkgchips_unselect"
+                        android:gravity="center"
+                        android:text="15000 Chips"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivtoday5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/today" />
+
+                    <ImageView
+                        android:id="@+id/ivmiddlechip5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/s1" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnfrmreward6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvday6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Day 6"
+                    android:textColor="@color/yellow"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmInner6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivmiddlemain6"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/dailyrewardbk1" />
+
+                    <TextView
+                        android:id="@+id/tvtodtom6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Day 6"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvCongras6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/Congratulations"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivmiddlechip6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/s1" />
+
+                    <TextView
+                        android:id="@+id/tvinnerchip6"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/d_bkgchips_unselect"
+                        android:gravity="center"
+                        android:text="20000 Chips"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivtoday6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/today" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnfrmreward7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvday7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Day 7"
+                    android:textColor="@color/yellow"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/frmInner7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/ivmiddlemain7"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/dailyrewardbk1_5" />
+
+                    <TextView
+                        android:id="@+id/tvtodtom7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Day 7"
+                        android:textColor="@color/yellow" />
+
+                    <TextView
+                        android:id="@+id/tvCongras7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/Congratulations"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivmiddlechip7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/s1" />
+
+                    <TextView
+                        android:id="@+id/tvinnerchip7"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/d_bkgchips_unselect"
+                        android:gravity="center"
+                        android:text="25000 Chips"
+                        android:textColor="@color/yellow" />
+
+                    <ImageView
+                        android:id="@+id/ivtoday7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/today" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnchip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:background="@drawable/playing_chip1"
+        android:gravity="center"
+        android:text="000"
+        android:textColor="@color/yellow"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lnYouWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvyouwintittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="You Won"
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/tvyouwinchip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text=" 0000"
+            android:textColor="@color/title_color_yellow" />
+
+        <TextView
+            android:id="@+id/tvchiptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text=" Chips..."
+            android:textColor="@color/yellow" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tx_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="@string/Or"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btncollect"
+        android:layout_width="186px"
+        android:layout_height="60px"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/profile_bg"
+        android:gravity="center"
+        android:text="@string/Collect"
+        android:textColor="@color/yellow"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/ll_chip_2X_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="130px"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_chips"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:scaleType="centerInside"
+            android:src="@drawable/small_chips" />
+
+        <TextView
+            android:id="@+id/txt_2xChip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=" 220"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_chip_text_11"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="130px"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_chips_11"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:scaleType="centerInside"
+            android:src="@drawable/small_chips" />
+
+        <TextView
+            android:id="@+id/txt_Chip_11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=" 220"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <utils.MagicTextView
+        android:id="@+id/Bonus2X"
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20px"
+        android:background="@drawable/chip_doble_btn"
+        android:gravity="center|right"
+        android:text="@string/Collect"
+        android:textColor="@color/yellow"
+        android:visibility="visible"
+        app:strokeColor="#000"
+        app:strokeWidth="1dp" />
+
+    <FrameLayout
+        android:id="@+id/fl_loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#84000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

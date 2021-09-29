@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transperant"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/mainpopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_border"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Dialog Title"
+            android:textColor="@color/title_yellow"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/line3" />
+
+        <Button
+            android:id="@+id/closebtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/closebtn"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Connection Lost ! cant connect to internet Try again Later"
+            android:textColor="@color/yellow"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tv_do_it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Do it later from settings."
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_chip_outof"
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            android:layout_gravity="center|bottom"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="30px"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_chips_11"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:scaleType="centerInside"
+                android:src="@drawable/small_chips" />
+
+            <TextView
+                android:id="@+id/txt_Chip_11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" 250"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:background="@drawable/get_free_card"
+                android:text="OK"
+                android:textColor="@color/yellow"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rate_chips_btn"
+                android:text="CANCEL"
+                android:textColor="@color/yellow"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rate_chips_btn"
+                android:text="Ex."
+                android:textColor="@color/yellow"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

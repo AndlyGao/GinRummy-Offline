@@ -1,0 +1,146 @@
+[
+  {
+    "task_id": "0",
+    "task_name": "Big Gin (Normal Mode)",
+    "task_sort_name": "Big Gin (Normal Mode)",
+    "task_complete": "Completed",
+    "array_time": [
+      3,
+      5,
+      10,
+      25
+    ],
+    "array_reward": [
+      1000,
+      2000,
+      5000,
+      15000
+    ]
+  },
+  {
+    "task_id": "1",
+    "task_name": "Gin (Normal Mode)",
+    "task_sort_name": "Gin (Normal Mode)",
+    "task_complete": "Completed",
+    "array_time": [
+      3,
+      5,
+      10,
+      25
+    ],
+    "array_reward": [
+      1000,
+      2000,
+      5000,
+      15000
+    ]
+  },
+  {
+    "task_id": "2",
+    "task_name": "Knock (Normal Mode)",
+    "task_sort_name": "Knock (Normal Mode)",
+    "task_complete": "Completed",
+    "array_time": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "array_reward": [
+      1000,
+      2500,
+      5000,
+      10000
+    ]
+  },
+  {
+    "task_id": "3",
+    "task_name": "Won Straight Mode",
+    "task_sort_name": "Won Straight Mode",
+    "task_complete": "Won",
+    "array_time": [
+      5,
+      10,
+      25,
+      50
+    ],
+    "array_reward": [
+      1000,
+      2500,
+      10000,
+      20000
+    ]
+  },
+  {
+    "task_id": "4",
+    "task_name": "Won Oklahoma Mode",
+    "task_sort_name": "Won Oklahoma Mode",
+    "task_complete": "Won",
+    "array_time": [
+      5,
+      10,
+      25,
+      50
+    ],
+    "array_reward": [
+      1000,
+      2500,
+      10000,
+      20000
+    ]
+  },
+  {
+    "task_id": "5",
+    "task_name": "Offer Wall",
+    "task_sort_name": "Offer Wall",
+    "task_complete": "Completed",
+    "array_time": [
+      3,
+      5,
+      10,
+      25
+    ],
+    "array_reward": [
+      1000,
+      2000,
+      5000,
+      15000
+    ]
+  },
+  {
+    "task_id": "6",
+    "task_name": "Watch Video",
+    "task_sort_name": "Video",
+    "task_complete": "Watched",
+    "array_time": [
+      3,
+      5,
+      10,
+      25
+    ],
+    "array_reward": [
+      500,
+      1000,
+      2000,
+      5000
+    ]
+  },
+  {
+    "task_id": "7",
+    "task_name": "Share",
+    "task_sort_name": "Share",
+    "task_complete": "Shared",
+    "array_time": [
+      3,
+      5,
+      10,
+      25
+    ],
+    "array_reward": [
+      500,
+      1000,
+      2000,
+      5000
+    ]
+  }
+]

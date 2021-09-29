@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvTheDeck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Deck"
+            android:textColor="@color/title_yellow"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ivLineSep"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-30dp"
+            android:background="@drawable/line3" />
+
+        <LinearLayout
+            android:id="@+id/llContainer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivStar1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:id="@+id/tvText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="One standard deck of 52 cards is used. Cards in each\nsuit rank, from low to high:"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frmCardContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/ivCard1"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:background="@drawable/k1" />
+
+            <ImageView
+                android:id="@+id/ivCard2"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="22dp"
+                android:background="@drawable/k2" />
+
+            <ImageView
+                android:id="@+id/ivCard3"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="44dp"
+                android:background="@drawable/k3" />
+
+            <ImageView
+                android:id="@+id/ivCard4"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="66dp"
+                android:background="@drawable/k4" />
+
+            <ImageView
+                android:id="@+id/ivCard5"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="88dp"
+                android:background="@drawable/k5" />
+
+            <ImageView
+                android:id="@+id/ivCard6"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="110dp"
+                android:background="@drawable/k6" />
+
+            <ImageView
+                android:id="@+id/ivCard7"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="132dp"
+                android:background="@drawable/k7" />
+
+            <ImageView
+                android:id="@+id/ivCard8"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="154dp"
+                android:background="@drawable/k8" />
+
+            <ImageView
+                android:id="@+id/ivCard9"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="176dp"
+                android:background="@drawable/k9" />
+
+            <ImageView
+                android:id="@+id/ivCard10"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="198dp"
+                android:background="@drawable/k10" />
+
+            <ImageView
+                android:id="@+id/ivCard11"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/k11" />
+
+            <ImageView
+                android:id="@+id/ivCard12"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="242dp"
+                android:background="@drawable/k12" />
+
+            <ImageView
+                android:id="@+id/ivCard13"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="264dp"
+                android:background="@drawable/k13" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/llContainer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivStar2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:id="@+id/tvText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The cards have values as follows:"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCardValuesContainer"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tvText4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Face cards (K,Q,J)"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvText5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="10 points"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tvText6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Ace"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvText7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="1 points"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llContainer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivStar3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:id="@+id/tvText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number cards are worth their spot (index) value."
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

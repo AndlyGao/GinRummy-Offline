@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="notificationtext">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_blue">#222F5B</color>
+    <color name="brown">#833B00</color>
+    <color name="transperant">#80000000</color>
+    <!-- <color name="yellow">#ffff00</color> -->
+    <color name="yellow">#ffffff</color>
+    <color name="red">#F44336</color>
+    <color name="trans">#00000000</color>
+    <color name="vip_table">#006C89</color>
+    <color name="pressed_color">#F44336</color>
+    <color name="default_color">#ffffff</color>
+    <color name="blue">#0000FF</color>
+    <color name="title_yellow">#ffff00</color>
+    <color name="title_color_yellow">#fecc0c</color>
+    <color name="edit_back">#093437</color>
+    <color name="splash">#1987F2</color>
+    <color name="green">#02CF59</color>
+
+</resources>

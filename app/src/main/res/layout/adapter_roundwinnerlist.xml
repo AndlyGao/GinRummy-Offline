@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+
+    <LinearLayout
+        android:id="@+id/llMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:text="Artoon"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivUserProfile"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    app:border_color="@color/title_color_yellow"
+                    app:border_width="2dp" />
+
+                <ImageView
+                    android:id="@+id/ivYouTag"
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="top|left"
+                    android:background="@drawable/youtag"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/iv_win_tag"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:background="@drawable/profilering" />
+
+                <ImageView
+                    android:id="@+id/iv_win_crown"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:layout_marginTop="-20px"
+                    android:background="@drawable/crown" />
+
+                <ImageView
+                    android:id="@+id/ivKnock"
+                    android:layout_width="70dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="-20dp"
+                    android:background="@drawable/knock_winner" />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.8"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard1"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/c1" />
+
+                <ImageView
+                    android:id="@+id/ivCard2"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="60dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard3"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="90dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard4"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="120dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard5"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="150dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard6"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="180dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard7"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="210dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard8"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="240dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard9"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="270dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard10"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="300dp" />
+
+                <ImageView
+                    android:id="@+id/ivCard11"
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="330dp" />
+
+                <TextView
+                    android:id="@+id/ivPoint1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ivPoint11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:textColor="@color/yellow"
+                    android:visibility="invisible" />
+
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/llLayOutPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivGin"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/icngin"
+                    android:visibility="invisible" />
+
+
+                <TextView
+                    android:id="@+id/tvGinPointText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/ivGin"
+                    android:text="Gin Points "
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tvGinPoints"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tvGinPointText"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/yellow"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tvGinPoints_iv"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tvGinPointText"
+                    android:background="@drawable/gin_plus"
+                    android:gravity="center"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/ivUndercut"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/tvGinPoints"
+                    android:background="@drawable/icnundercut"
+                    android:visibility="invisible" />
+
+
+                <TextView
+                    android:id="@+id/tvKnockPenaltyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/ivUndercut"
+                    android:text="Undercut "
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tvKnockPenalty"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tvKnockPenaltyText"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/yellow"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tvWinPointsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/tvKnockPenalty"
+                    android:text="Win Points "
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tvWinPoints"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tvWinPointsText"
+                    android:background="@drawable/remainpoints"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/yellow"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPoints"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/remainpoints"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/title_yellow"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvTotalPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="/0"
+                android:textColor="@color/title_yellow"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPointsAnim"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/remainpoints"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/yellow"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvPointsAnimLast"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="-15dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/remainpoints"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/yellow"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvPointsAnimLast2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="-15dp"
+        android:background="@drawable/remainpoints"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/yellow"
+        android:visibility="invisible" />
+
+
+</FrameLayout>

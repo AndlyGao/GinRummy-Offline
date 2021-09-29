@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/profile_bk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="@drawable/main_bg" />
+
+    <ImageButton
+        android:id="@+id/activity_profile_closebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_close" />
+
+    <TextView
+        android:id="@+id/tvTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_title"
+        android:gravity="center"
+        android:text="Profile Details"
+        android:textColor="@color/yellow"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <View
+            android:id="@+id/profile_View"
+            android:layout_width="2px"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/profileline" />
+
+        <LinearLayout
+            android:id="@+id/Linyouhave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/profile_lin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100px"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/profile_lin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10px"
+                    android:layout_weight="1"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/profil_pic_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/activity_profile_avtarimage"
+                            android:layout_width="300px"
+                            android:layout_height="300px"
+                            android:layout_gravity="center"
+                            android:src="@drawable/me"
+                            app:border_width="0dp" />
+
+                        <TextView
+                            android:id="@+id/activity_profile_changeavatar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center"
+                            android:background="@drawable/bg_edit_avatar"
+                            android:gravity="center"
+                            android:text="Edit Avtar"
+                            android:textColor="@color/yellow"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/liner_name"
+                        android:layout_width="200px"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:gravity="center|right"
+                                android:id="@+id/activity_profile_username"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:shadowColor="@color/black"
+                                android:shadowDy="2"
+                                android:shadowRadius="2"
+                                android:text="Jacky"
+                                android:textColor="@color/yellow"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:visibility="gone"
+                                android:id="@+id/et_activity_profile_username"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:shadowColor="@color/black"
+                                android:shadowDy="2"
+                                android:shadowRadius="2"
+                                android:singleLine="true"
+                                android:maxLines="1"
+                                android:maxLength="10"
+                                android:textColor="@color/edit_back"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </FrameLayout>
+
+
+
+                        <ImageView
+                            android:id="@+id/profile_changename"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/avtarchange"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/second_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/lnr_check"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lnr_check1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+                            <LinearLayout
+                                android:id="@+id/lnr_check_gin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/chk_gin"
+                                    android:layout_width="180px"
+                                    android:layout_height="60px"
+                                    android:background="@drawable/check_btn"
+                                    android:button="@null"
+                                    android:checked="true"
+                                    android:gravity="center"
+                                    android:text="Gin Rummy"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/txt_check_gin"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gin Rummy"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lnr_check_straight"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/chk_straight"
+                                    android:layout_width="180px"
+                                    android:layout_height="60px"
+                                    android:background="@drawable/check_btn"
+                                    android:button="@null"
+                                    android:checked="false"
+                                    android:gravity="center"
+                                    android:text="Straight"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/txt_check_straight"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Straight Rummy"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lnr_check_oklahoma"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/chk_oklahoma"
+                                    android:layout_width="180px"
+                                    android:layout_height="60px"
+                                    android:background="@drawable/check_btn"
+                                    android:button="@null"
+                                    android:checked="false"
+                                    android:gravity="center"
+                                    android:text="Oklahoma"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/txt_check_oklahoma"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Oklahoma Rummy"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrusrinfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10px"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:id="@+id/lnrinner1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:id="@+id/lnrgameplayed"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/profile_text3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="@string/HandsPlayed"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:id="@+id/innerline1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/line" />
+
+                                <TextView
+                                    android:id="@+id/activity_profile_handsplayed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="000"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lnrgamewon"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/profile_text4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="@string/HandsWon"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:id="@+id/innerline2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/line" />
+
+                                <TextView
+                                    android:id="@+id/activity_profile_handswon"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="000"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_inr_diveder"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/line" />
+
+                        <LinearLayout
+                            android:id="@+id/lnrinner2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10px"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/lnrgameplayed2_total"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/profile_text3_total"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="@string/HandsPlayed2"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:id="@+id/innerline1_total"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/line" />
+
+                                <TextView
+                                    android:id="@+id/activity_profile_handsplayed_total"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="000"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lnrgamewon_total"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/profile_text4_total"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="@string/HandsWon2"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:id="@+id/innerline2_total"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/line" />
+
+                                <TextView
+                                    android:id="@+id/activity_profile_handswon_total"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:gravity="center"
+                                    android:shadowColor="@color/black"
+                                    android:shadowDy="2"
+                                    android:shadowRadius="1"
+                                    android:singleLine="true"
+                                    android:text="000"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="24px"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/profile_line33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/line3" />
+
+            <TextView
+                android:id="@+id/tvyouhavetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10px"
+                android:text="You Have "
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/profile_line333"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10px"
+                android:background="@drawable/trump_sel_line" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivChips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/coin_icon" />
+
+                <TextView
+                    android:id="@+id/tvChips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="0000"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Ename_frm1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bg"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/edit_closebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_close" />
+
+        <TextView
+            android:id="@+id/ename_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_title"
+            android:gravity="center"
+            android:text="Edit Name"
+            android:textColor="@color/yellow"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ename_line"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/line3"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/e_nameEdit"
+                android:layout_width="150sp"
+                android:layout_height="30sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_rounded"
+                android:digits="_qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM 0123456789"
+                android:gravity="center"
+                android:hint="Enter Name"
+                android:imeOptions="actionDone"
+                android:lines="1"
+                android:maxLength="10"
+                android:textColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/e_nameokbtn"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/profile_bg"
+                android:gravity="center"
+                android:text="@string/OK"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

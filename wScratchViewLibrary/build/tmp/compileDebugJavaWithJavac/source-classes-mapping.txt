@@ -1,0 +1,9 @@
+com/winsontan520/WScratchView.java
+ com.winsontan520.WScratchView
+ com.winsontan520.WScratchView$1
+ com.winsontan520.WScratchView$OnScratchCallback
+ com.winsontan520.WScratchView$WScratchViewThread
+com/winsontan520/BuildConfig.java
+ com.winsontan520.BuildConfig
+com/winsontan520/IWScratchView.java
+ com.winsontan520.IWScratchView

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/btn_faceup_pressed" android:state_pressed="true" />
+    <!-- checked -->
+    <item android:drawable="@drawable/btn_faceup" />
+    <!-- default/unchecked -->
+
+</selector>

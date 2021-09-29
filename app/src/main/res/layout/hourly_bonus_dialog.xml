@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hourly_screen_bg"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/close_hourly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:background="@drawable/closebtn"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/main_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/title_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/hb_logo_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/hb_logo" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/congrats_button_linear"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/bg_txt"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/descriptions_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Congratulations!\n You won 250 chips as hourly bonus."
+                android:textColor="@color/yellow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/collect_hourly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginRight="90px"
+                    android:background="@drawable/profile_bg"
+                    android:text="Collect"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/collect2x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginLeft="90px"
+                    android:background="@drawable/chip_doble_btn"
+                    android:text="2X Collect"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_hourly_2"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="130px"
+        android:layout_marginLeft="200px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_hourly_2"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:scaleType="centerInside"
+            android:src="@drawable/small_chips" />
+
+        <TextView
+            android:id="@+id/tx_hourly_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=" 500"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_hourly_1"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="130px"
+        android:layout_marginRight="200px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_hourly_1"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:scaleType="centerInside"
+            android:src="@drawable/small_chips" />
+
+        <TextView
+            android:id="@+id/tx_hourly_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=" 250"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

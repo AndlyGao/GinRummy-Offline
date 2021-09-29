@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lineheader"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:text="@string/HowToPlay"
+            android:textColor="@color/title_yellow"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tvKnockDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="ABCD"
+            android:textColor="@color/yellow"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnKnock"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnknock"
+            android:text="Knock for 9"
+            android:textColor="@color/yellow"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/llDeadWoodContainer"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/deadwoodbackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDeadwoodtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deadwood"
+                android:textColor="@color/yellow"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvDeadwoodPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9/10"
+                android:textColor="@color/title_yellow"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frmCards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/ivCard1"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:background="@drawable/c_b_1" />
+
+            <ImageView
+                android:id="@+id/ivCard2"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="21dp"
+                android:background="@drawable/c_b_2" />
+
+            <ImageView
+                android:id="@+id/ivCard3"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="42dp"
+                android:background="@drawable/c_b_3" />
+
+            <ImageView
+                android:id="@+id/ivCard4"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="63dp"
+                android:background="@drawable/k4" />
+
+            <ImageView
+                android:id="@+id/ivCard5"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="84dp"
+                android:background="@drawable/f5" />
+
+            <ImageView
+                android:id="@+id/ivCard6"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="105dp"
+                android:background="@drawable/c9_1" />
+
+            <ImageView
+                android:id="@+id/ivCard7"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="126dp"
+                android:background="@drawable/c10_1" />
+
+            <ImageView
+                android:id="@+id/ivCard8"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="147dp"
+                android:background="@drawable/c11_1" />
+
+            <ImageView
+                android:id="@+id/ivCard9"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="168dp"
+                android:background="@drawable/k_g_1" />
+
+            <ImageView
+                android:id="@+id/ivCard10"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="189dp"
+                android:background="@drawable/f_g_1" />
+
+            <ImageView
+                android:id="@+id/ivCard11"
+                android:layout_width="42dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="210dp"
+                android:background="@drawable/l_g_1" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,53 @@
+
+-ignorewarnings
+
+-keepclassmembers class com.supersonicads.sdk.controller.SupersonicWebView$JSInterface {
+    public *;
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+-keep public class com.google.android.gms.ads.** {
+   public *;
+}
+-keep class com.supersonic.adapters.** { *;
+}
+-keep class com.android.vending.billing.**
+
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class com.android.vending.billing.IInAppBillingService
+-dontwarn com.google.android.gms.**
+-dontwarn com.supersonic.adapters.**
+-dontwarn com.jirbo.adcolony.**
+-keep class com.jirbo.adcolony.**{*;}
+-dontwarn com.chartboost.**
+
+# for ad colony
+-dontwarn android.webkit.**
+
+# for unity ads
+# Keep filenames and line numbers for stack traces
+-keepattributes SourceFile,LineNumberTable
+
+# Keep JavascriptInterface for WebView bridge
+-keepattributes JavascriptInterface
+
+# Sometimes keepattributes is not enough to keep annotations
+-keep class android.webkit.JavascriptInterface {
+   *;
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}
+
+# For communication with AdColony's WebView
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+-keepclassmembers class com.ironsource.sdk.controller.IronSourceWebView$JSInterface {
+public *;
+}
+-keep class com.ironsource.adapters.** { *;
+}

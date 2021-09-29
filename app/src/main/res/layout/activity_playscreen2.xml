@@ -1,0 +1,2465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.artoon.ginrummyoffline"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frmMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:context=".PlayScreen2">
+
+    <ImageView
+        android:id="@+id/ivGinRummyText"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ginrummytext" />
+
+    <FrameLayout
+        android:id="@+id/frmDeadwoodContainer"
+        android:layout_width="115dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/deadwoodbackground">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDeadwoodText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Deadwood"
+                android:textColor="@color/yellow"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tvUserScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="81/10"
+                android:textColor="@color/title_yellow"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llTemp11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:id="@+id/StandUp_Btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_suare_green">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/back_btn" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/ivScoreboard22"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/setting_icon"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ivScoreboard"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|right"
+        android:background="@drawable/btn_suare_green"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/icnscorecard" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llBootAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvbootAmountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Boot Amount"
+            android:textColor="@color/yellow"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/lnrbootchip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivBootChips"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/small_chips" />
+
+            <TextView
+                android:id="@+id/tvbootAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="0000"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frmtable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:id="@+id/ivtable"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/table_blue" />
+
+        <LinearLayout
+            android:id="@+id/ivScore"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/daily_back_wheel"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                android:id="@+id/tvdeadwoodlbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DeadWood"
+                android:textColor="@color/yellow"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/linedead"
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:background="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvdeadwoodScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="00"
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvdeadwoodScore2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="/10"
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ivScore_knock"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/knock_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                android:id="@+id/tv_knock_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Knock For"
+                android:textColor="@color/yellow"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_knock_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@color/yellow"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="104dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/passbtn"
+            android:gravity="center"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnDrawNew"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/newbtn"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/yellow"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnFaceUp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/faceupbtn"
+            android:textColor="@color/yellow"
+            android:textSize="14sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnDiscard"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/discardbtn"
+            android:textColor="@color/yellow"
+            android:textSize="14sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnKnock"
+            android:layout_width="112dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/knockbtn"
+            android:textColor="@color/yellow"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnGin"
+            android:layout_width="112dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/ginbtn"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <!-- Bunch Frame 11 -->
+    <FrameLayout
+        android:id="@+id/frmDeckBackGround"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/deck_box"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <FrameLayout
+            android:id="@+id/frmTemp11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/ivDeckBg1"
+                android:layout_width="57dp"
+                android:layout_height="76dp"
+                android:background="@drawable/deckbg" />
+
+            <ImageView
+                android:id="@+id/ivCloseDeck"
+                android:layout_width="65dp"
+                android:layout_height="78dp"
+                android:background="@drawable/card_bunch" />
+
+            <TextView
+                android:id="@+id/tvCardCounter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/cardcounter"
+                android:gravity="center"
+                android:text="52"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/ivCardForDistribution"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:background="@drawable/card"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivCardOnDeck"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frmTemp12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="9dp"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/ivDeckBg2"
+                android:layout_width="54dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/deckbg" />
+
+            <ImageView
+                android:id="@+id/ivCloseCard"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:layout_margin="2dp" />
+
+            <ImageView
+                android:id="@+id/ivPickCard"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/c1"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/ivHandCloseDeck"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/ivHandOpenCard"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/arrow" />
+
+    </FrameLayout>
+    <!-- Bunch Frame 22 -->
+    <FrameLayout
+        android:id="@+id/frmDeckBackGround9"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <FrameLayout
+            android:id="@+id/frmTemp119"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/ivCloseDeck9"
+                android:layout_width="65dp"
+                android:layout_height="78dp" />
+
+            <ImageView
+                android:id="@+id/ivCardForDistribution9"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:background="@drawable/card"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivCardOnDeck9"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:visibility="visible" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frmTemp129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="9dp"
+            android:clipToPadding="false">
+
+
+            <ImageView
+                android:id="@+id/ivCloseCard9"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:layout_margin="2dp" />
+
+            <ImageView
+                android:id="@+id/ivPickCard9"
+                android:layout_width="60dp"
+                android:layout_height="78dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/c1"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTxtOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="345dp"
+        android:layout_marginTop="105dp"
+        android:text="OR"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/frmLeftUserOpenCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="180dp" />
+
+    <FrameLayout
+        android:id="@+id/frmRightUserOpenCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="180dp" />
+
+    <TextView
+        android:id="@+id/help_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/messagebg"
+        android:gravity="center"
+        android:text="Waiting for opponent"
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivBottomUserCard"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/card"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/notificationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/messagebg"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <ToggleButton
+        android:id="@+id/tglSortButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/sort_cards"
+        android:textOff=""
+        android:textOn=""
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvAutosortOnOff"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/dash_setting2"
+        android:gravity="center"
+        android:text="Auto Sort On"
+        android:textColor="@color/notificationtext"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/tglAutoSortButton22"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="55dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/auto_sort"
+        android:textOff=""
+        android:textOn=""
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/frmBottValueANim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/coin_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/coin_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/coin_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/coin_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/coin_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/coin_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv7"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/coin_icon"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llTableInfo"
+        android:layout_width="210dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_border"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvTitleGti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="Table Info"
+            android:textColor="@color/yellow" />
+
+        <ImageView
+            android:id="@+id/ivLineGti"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTableNameGtiText"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:text="Table Name "
+                android:textColor="@color/yellow" />
+
+            <TextView
+                android:id="@+id/tvColumnOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text=":"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTableNameGti"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:paddingBottom="3dp"
+                android:text="Private Table"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBootAmtGtiText"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:text="Boot Amount "
+                android:textColor="@color/yellow" />
+
+            <TextView
+                android:id="@+id/tvColumnTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text=":"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvBootAmtGti"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:text="10,000"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMinChipsGtiText"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:text="Minimum Chips "
+                android:textColor="@color/yellow" />
+
+            <TextView
+                android:id="@+id/tvColumnThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text=":"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvMinChipsGti"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:paddingBottom="3dp"
+                android:text="1000"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPointsTextGti"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:text="Points "
+                android:textColor="@color/yellow" />
+
+            <TextView
+                android:id="@+id/tvColumnFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text=":"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvPointsGti"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:paddingBottom="3dp"
+                android:text="00"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTopThreeUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/fmUserThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/ivUserThreeCard"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/card"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivWinninngRoundThree"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="-13dp"
+                android:layout_marginTop="-21dp"
+                android:src="@drawable/winninground"
+                android:visibility="visible" />
+
+            <utils.CircularImageView
+                android:id="@+id/ivProfileImageThree"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="visible"
+                app1:border_color="@color/green"
+                app1:border_width="2dp" />
+
+
+            <ImageView
+                android:id="@+id/BottomUserRing"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/round1"
+                android:visibility="invisible" />
+
+
+            <ImageView
+                android:id="@+id/ivGiftIconThree"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/gift"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivGiftIconThreeBtoR"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivGiftIconThreeBtoL"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvScoreThree"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="20px"
+                android:background="@drawable/score_bg_1"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="@color/yellow"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ivUserThreeBootChip"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/coin_icon"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivSkipUserThree"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/skiptext"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivTimeOutUserThree"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/timeout"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivKnockUserThree"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/knock"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivDrawUserThree"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/draw"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivGinUserThree"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/gin"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivGinUserThree2"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/txtbiggin"
+                android:visibility="invisible" />
+
+            <utils.MagicTextView
+                android:id="@+id/ivUserNameThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="65dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:text="Invite"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:strokeColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/BottomUserVipTag"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="-16dp" />
+
+            <ImageView
+                android:id="@+id/ivWinninngCircleThree"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/winningcircle"
+                android:visibility="visible" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <FrameLayout
+                android:id="@+id/fmuserCards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard1"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard2"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard3"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard4"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard5"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard6"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard7"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard8"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard9"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard10"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+
+                <ImageView
+                    android:id="@+id/ivCard11"
+                    android:layout_width="60dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="bottom" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/groupBgLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="100dp"
+                android:gravity="bottom" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTemp12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llGamePrice"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bootvaluebg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llBootContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivBootAmountChips"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/small_chips" />
+
+                <TextView
+                    android:id="@+id/tvTotalBetValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvPointsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Points "
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvPointsColumn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=": "
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvPoints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text=""
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llRound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvRoundNoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Round "
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvColumnRound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": "
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvRoundNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_2X"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/twox" />
+
+    <FrameLayout
+        android:id="@+id/llTopTwoUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="15dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/fmUserOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/ivUserOneCard"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/card"
+                android:visibility="invisible" />
+
+
+            <ImageView
+                android:id="@+id/ivWinninngRoundOne"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="-13dp"
+                android:layout_marginTop="-21dp"
+                android:background="@drawable/winninground"
+                android:visibility="visible" />
+
+
+            <utils.CircularImageView
+                android:id="@+id/ivProfileImage"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="visible"
+                app1:border_color="@color/red"
+                app1:border_width="2dp" />
+
+
+            <ImageView
+                android:id="@+id/LeftUserRing"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/round1"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivGiftIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/gift"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivGiftIconLtoB"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivGiftIconLtoR"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="20px"
+                android:background="@drawable/score_bg_1"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="@color/yellow"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ivUserOneBootChip"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/coin_icon"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivSkipUserOne"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/skiptext"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivTimeOutUserOne"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/timeout"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivKnockUserOne"
+                android:layout_width="20dp"
+                android:layout_height="6dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/knock"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivDrawUserOne"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/draw"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivGinUserOne"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/gin"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivGinUserOne2"
+                android:layout_width="22dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/txtbiggin"
+                android:visibility="invisible" />
+
+            <utils.MagicTextView
+                android:id="@+id/ivUserNameOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="70dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:text="Invite"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:strokeColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/LeftUserVipTag"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="-14dp" />
+
+            <ImageView
+                android:id="@+id/ivWinninngCircleOne"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/winningcircle"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivUserOneThrownCard2"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/card"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivUserOneThrownCard"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/card"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fmUserTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <ImageView
+                android:id="@+id/ivUserTwoCard"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/card"
+                android:visibility="invisible" />
+
+
+            <ImageView
+                android:id="@+id/ivWinninngRoundTwo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="-13dp"
+                android:layout_marginTop="-21dp"
+                android:background="@drawable/winninground"
+                android:visibility="visible" />
+
+            <utils.CircularImageView
+                android:id="@+id/ivProfileImageTwo"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="visible"
+                app1:border_color="@color/red"
+                app1:border_width="2dp" />
+
+
+            <ImageView
+                android:id="@+id/RightUserRing"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/round1"
+                android:visibility="invisible" />
+
+
+            <ImageView
+                android:id="@+id/ivGiftIconTwo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/gift"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivGiftIconTwoRtoL"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivGiftIconTwoRtoB"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvScoreTwo"
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="20px"
+                android:background="@drawable/score_bg_1"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="@color/yellow"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+
+            <ImageView
+                android:id="@+id/ivUserTwoBootChip"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/coin_icon"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivSkipUserTwo"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/skiptext"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivTimeOutUserTwo"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/timeout"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivKnockUserTwo"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/knock"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivDrawUserTwo"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/draw"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivGinUserTwo"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/gin"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivGinUserTwo2"
+                android:layout_width="20dp"
+                android:layout_height="8dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/txtbiggin"
+                android:visibility="invisible" />
+
+            <utils.MagicTextView
+                android:id="@+id/ivUserNameTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="65dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:text="Invite"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:strokeColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/RightUserVipTag"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="-15dp" />
+
+            <ImageView
+                android:id="@+id/ivWinninngCircleTwo"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/winningcircle"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ivUserTwoThrownCard2"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/card"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/ivUserTwoThrownCard"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/card"
+                android:visibility="invisible" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fmuserCardsRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="70dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/ivCardRL1"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom" />
+
+        <ImageView
+            android:id="@+id/ivCardRL2"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL3"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="40dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL4"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="60dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL5"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="80dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL6"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="100dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL7"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="120dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL8"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="140dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL10"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="180dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="200dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRL9"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="160dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fmuserCardsRR"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginBottom="70dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/ivCardRR1"
+            android:layout_width="46dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom" />
+
+        <ImageView
+            android:id="@+id/ivCardRR2"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR3"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="40dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR4"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="60dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR5"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="80dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR6"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="100dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR7"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="120dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR8"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="140dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR9"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="160dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR10"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="180dp" />
+
+        <ImageView
+            android:id="@+id/ivCardRR11"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="200dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frm_timer"
+        android:layout_width="201px"
+        android:layout_height="86px"
+        android:layout_marginLeft="280px"
+        android:layout_marginTop="10px"
+        android:background="@drawable/bgtimer"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <FrameLayout
+            android:id="@+id/iv_green_glow"
+            android:layout_width="139px"
+            android:layout_height="67px"
+            android:layout_marginLeft="55px"
+            android:layout_marginTop="13px"
+            android:background="@drawable/greenglow">
+
+            <TextView
+                android:id="@+id/tv_bonus_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30px"
+                android:text="120:00"
+                android:textColor="@color/yellow"
+                android:textSize="30px"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/iv_red_glow"
+            android:layout_width="87px"
+            android:layout_height="86px"
+            android:background="@drawable/glow_red">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/frm_time_list"
+            android:layout_width="298px"
+            android:layout_height="410px"
+            android:layout_marginLeft="-30px"
+            android:layout_marginTop="91px"
+            android:background="@drawable/bg_time_popup"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/lnr_item_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/frm_time_0"
+                    android:layout_width="141px"
+                    android:layout_height="61px"
+                    android:background="@drawable/bgtimer">
+
+                    <ImageView
+                        android:id="@+id/iv_green_0"
+                        android:layout_width="98px"
+                        android:layout_height="47px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginTop="9px"
+                        android:background="@drawable/greenglow" />
+
+                    <ImageView
+                        android:id="@+id/iv_red_glow_0"
+                        android:layout_width="61px"
+                        android:layout_height="61px"
+                        android:background="@drawable/glow_red" />
+
+                    <TextView
+                        android:id="@+id/tv_timer_0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginTop="2px"
+                        android:text="5:00"
+                        android:textColor="@color/yellow"
+                        android:textSize="22px"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_chips_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="2px"
+                    android:text="100 Chips"
+                    android:textColor="@color/yellow"
+                    android:textSize="22px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line_0"
+                android:layout_width="285px"
+                android:layout_height="3px"
+                android:background="@drawable/line_timer" />
+
+            <LinearLayout
+                android:id="@+id/lnr_item_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/frm_time_1"
+                    android:layout_width="141px"
+                    android:layout_height="61px"
+                    android:background="@drawable/bgtimer">
+
+                    <ImageView
+                        android:id="@+id/iv_green_1"
+                        android:layout_width="98px"
+                        android:layout_height="47px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginTop="9px"
+                        android:background="@drawable/greenglow" />
+
+                    <ImageView
+                        android:id="@+id/iv_red_glow_1"
+                        android:layout_width="61px"
+                        android:layout_height="61px"
+                        android:background="@drawable/glow_red" />
+
+                    <TextView
+                        android:id="@+id/tv_timer_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginTop="2px"
+                        android:text="10:00"
+                        android:textColor="@color/yellow"
+                        android:textSize="22px"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_chips_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="2px"
+                    android:text="250 Chips"
+                    android:textColor="@color/yellow"
+                    android:textSize="22px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line_1"
+                android:layout_width="285px"
+                android:layout_height="3px"
+                android:background="@drawable/line_timer" />
+
+            <LinearLayout
+                android:id="@+id/lnr_item_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/frm_time_2"
+                    android:layout_width="141px"
+                    android:layout_height="61px"
+                    android:background="@drawable/bgtimer">
+
+                    <ImageView
+                        android:id="@+id/iv_green_2"
+                        android:layout_width="98px"
+                        android:layout_height="47px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginTop="9px"
+                        android:background="@drawable/greenglow" />
+
+                    <ImageView
+                        android:id="@+id/iv_red_glow_2"
+                        android:layout_width="61px"
+                        android:layout_height="61px"
+                        android:background="@drawable/glow_red" />
+
+                    <TextView
+                        android:id="@+id/tv_timer_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginTop="2px"
+                        android:text="20:00"
+                        android:textColor="@color/yellow"
+                        android:textSize="22px"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_chips_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="2px"
+                    android:text="500 Chips"
+                    android:textColor="@color/yellow"
+                    android:textSize="22px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line_2"
+                android:layout_width="285px"
+                android:layout_height="3px"
+                android:background="@drawable/line_timer" />
+
+            <LinearLayout
+                android:id="@+id/lnr_item_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/frm_time_3"
+                    android:layout_width="141px"
+                    android:layout_height="61px"
+                    android:background="@drawable/bgtimer">
+
+                    <ImageView
+                        android:id="@+id/iv_green_3"
+                        android:layout_width="98px"
+                        android:layout_height="47px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginTop="9px"
+                        android:background="@drawable/greenglow" />
+
+                    <ImageView
+                        android:id="@+id/iv_red_glow_3"
+                        android:layout_width="61px"
+                        android:layout_height="61px"
+                        android:background="@drawable/glow_red" />
+
+                    <TextView
+                        android:id="@+id/tv_timer_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginTop="2px"
+                        android:text="45:00"
+                        android:textColor="@color/yellow"
+                        android:textSize="22px"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_chips_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="2px"
+                    android:text="1000 Chips"
+                    android:textColor="@color/yellow"
+                    android:textSize="22px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line_3"
+                android:layout_width="285px"
+                android:layout_height="3px"
+                android:background="@drawable/line_timer" />
+
+            <LinearLayout
+                android:id="@+id/lnr_item_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/frm_time_4"
+                    android:layout_width="141px"
+                    android:layout_height="61px"
+                    android:background="@drawable/bgtimer">
+
+                    <ImageView
+                        android:id="@+id/iv_green_4"
+                        android:layout_width="98px"
+                        android:layout_height="47px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginTop="9px"
+                        android:background="@drawable/greenglow" />
+
+                    <ImageView
+                        android:id="@+id/iv_red_glow_4"
+                        android:layout_width="61px"
+                        android:layout_height="61px"
+                        android:background="@drawable/glow_red" />
+
+                    <TextView
+                        android:id="@+id/tv_timer_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginTop="2px"
+                        android:text="90:00"
+                        android:textColor="@color/yellow"
+                        android:textSize="22px"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_chips_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="2px"
+                    android:text="2500 Chips"
+                    android:textColor="@color/yellow"
+                    android:textSize="22px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_line_4"
+                android:layout_width="285px"
+                android:layout_height="3px"
+                android:background="@drawable/line_timer" />
+
+            <LinearLayout
+                android:id="@+id/lnr_item_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/frm_time_5"
+                    android:layout_width="141px"
+                    android:layout_height="61px"
+                    android:background="@drawable/bgtimer">
+
+                    <ImageView
+                        android:id="@+id/iv_green_5"
+                        android:layout_width="98px"
+                        android:layout_height="47px"
+                        android:layout_marginLeft="40px"
+                        android:layout_marginTop="9px"
+                        android:background="@drawable/greenglow" />
+
+                    <ImageView
+                        android:id="@+id/iv_red_glow_5"
+                        android:layout_width="61px"
+                        android:layout_height="61px"
+                        android:background="@drawable/glow_red" />
+
+                    <TextView
+                        android:id="@+id/tv_timer_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginTop="2px"
+                        android:text="120:00"
+                        android:textColor="@color/yellow"
+                        android:textSize="22px"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_chips_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10px"
+                    android:layout_marginTop="2px"
+                    android:text="5000 Chips"
+                    android:textColor="@color/yellow"
+                    android:textSize="22px"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/back_menu_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/frmPlayingSettingBg"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top"
+            android:background="@drawable/bgplayingmenu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/close_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btn_suare_green">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/closebtn" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/llExitToLobbyWrapper"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btnexitnew"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/exit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:gravity="center"
+                        android:text="Exit to Lobby"
+                        android:textColor="@color/yellow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llSwitchTableWrapper"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/switch_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:gravity="center_vertical"
+                        android:text="Switch Table"
+                        android:textColor="@color/yellow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llTableInfoWrapper"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btntableinfo"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/table_info_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:gravity="center_vertical"
+                        android:text="Table Info"
+                        android:textColor="@color/yellow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llScoreboardWrapper"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/howtoplayslider"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/ivScoreboardIcon"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:tint="@color/title_yellow" />
+
+                    <TextView
+                        android:id="@+id/scoreboard_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="9dp"
+                        android:gravity="center_vertical"
+                        android:text="Scoreboard"
+                        android:textColor="@color/yellow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llControllsWrapper"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/btncontrolls"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tvController"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:gravity="center_vertical"
+                        android:text="Controls"
+                        android:textColor="@color/yellow" />
+
+                    <CheckBox
+                        android:id="@+id/cbController"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/switchcheck1"
+                        android:button="@null" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAutoSort"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/plainslider"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/ivAutoSortIcon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:background="@drawable/autosort" />
+
+                    <TextView
+                        android:id="@+id/tvAutoSort"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Auto Sort"
+                        android:textColor="@color/yellow" />
+
+                    <CheckBox
+                        android:id="@+id/cbAutoSort"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:background="@drawable/switchcheck1"
+                        android:button="@null" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cbSound"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/soundcheck"
+                    android:button="@null"
+                    android:paddingLeft="35dp"
+                    android:text="@string/Sound"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <CheckBox
+                    android:id="@+id/cbVibRate"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/vibratecheck"
+                    android:button="@null"
+                    android:paddingLeft="35dp"
+                    android:text="Vibration"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/llThemesWrapper"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tvTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:gravity="center_vertical"
+                        android:text="Themes"
+                        android:textColor="@color/yellow" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+</FrameLayout>

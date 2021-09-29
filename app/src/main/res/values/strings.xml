@@ -1,0 +1,363 @@
+<resources>
+
+    <string name="facebook_app_id">448129418899446</string>
+    <string name="app_ID">22758271745</string>
+    <string name="LEADERBOARD_ID">CggIgdb-41QQAhAG</string>
+
+    <string name="share_success">"Share Your\nSuccess..."</string>
+    <string name="share_get">"Get 500 Chip\nDaily For inviting..."</string>
+
+
+    <string name="signin_failure">"Unable to sign in."</string>
+    <string name="signin_other_error">"There was an issue with sign-in, please try again later."</string>
+
+    <string name="at_how61">That\'s It!</string>
+    <string name="at_how62">A Player who first reach cumulative score is the</string>
+    <string name="at_how63">WINNER!</string>
+
+    <string name="download_getRewards">DOWNLOAD &amp;\n GET REWARDS</string>
+    <string name="You_Lose_Chips">You Lost Chips</string>
+    <string name="special_deals">Special Deals!</string>
+    <string name="special_offer">Special Offer!</string>
+    <string name="Out_of_Chips">Out of Chips</string>
+    <string name="Out_of_Chips_text">You don\'t have enough chips!\nBuy Now or collect free chips rewadrs... </string>
+    <string name="Out_of_Chips_text1">Get More Chips from here..!</string>
+    <string name="Benifit_fb">We never post feeds without your permission.</string>
+    <string name="Try_some_more_Games">More Games you may like...!</string>
+    <string name="Your_Chips_could_not_be_added_Please_try_again">Transaction Cancelled</string>
+    <string name="LoginWith">Login With Facebook</string>
+    <string name="Benifit_getchips">GET 5000\n CHIPS</string>
+    <string name="Benifit_playfriends">PLAY WITH\n FRIENDS</string>
+    <string name="Benifit_sync">SYNC YOUR\n PROGRESS</string>
+    <string name="Benifit_device">PLAY ON ANY\n DEVICE</string>
+    <string name="Fb_invite_title">Invite Facebook Friends</string>
+    <string name="Invite_Earn">INVITE &amp; EARN</string>
+    <string name="Invite_frnd_note">Chips are added when your requests \n will be accepted by your friends.</string>
+    <string name="Skip_frnd">Skip >></string>
+    <string name="We_hope_you_like_GinRummy_and_could_help_others_by_giving_it_good_rating">We hope you like GinRummy and could help others by giving it good rating !</string>
+
+    <string name="Weekly_Winners">Weekly Winners</string>
+    <string name="Select_your_desired_Boot_amount_Table">Select your desired Boot amount Table</string>
+    <string name="You_dont_have_enough_Chips_to_Create_Custom_Table">You dont have enough Chips to Create Custom Table</string>
+    <string name="pop_buddies_open_1st">Now, you can add \n Buddy by just entering \n their Unique ID!</string>
+    <string name="UnreadMessages">Unread Messages</string>
+    <string name="Create_Now">Create Now</string>
+    <string name="Choose">Choose</string>
+    <string name="Search">Search</string>
+    <string name="You">You</string>
+    <string name="Chat">Chat</string>
+    <string name="EnterTextHere">Enter text here..</string>
+    <string name="PleaseSelectAnyFriend">Please select any Friend</string>
+    <string name="LevelUp">Level Up</string>
+    <string name="unlock_price">"Unlock for "</string>
+    <string name="PublishedSuccessfully">Published Successfully.</string>
+    <string name="Restore">Restore</string>
+    <string name="Congratulations">Congratulations!</string>
+    <string name="YouUnlockedThe">You unlocked the </string>
+    <string name="Help">How To Play</string>
+    <string name="SharewithyourFriends">Share with your Friends</string>
+    <string name="levelup_desc">You reached to Higher level</string>
+    <string name="levelup_desc1">Collect level-up bonus</string>
+    <string name="CollectAndShare">Collect &amp; Share</string>
+    <string name="offerstext">FIRST TIME\nPURCHASE OFFER</string>
+    <string name="GinRummy">GinRummy</string>
+    <string name="You_have_Invited">You have invited</string>
+    <string name="Please_select_a_friend_to_invite_for_playing_Multiplayer_Tonk">Please select Friends to be Invited</string>
+    <string name="friends_Successfully">friend Successfully!</string>
+    <string name="ForYou">FOR YOU</string>
+    <string name="Specialoff">SPECIAL OFFER</string>
+    <string name="Free">" Free "</string>
+    <string name="YouGet">"Total"</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ForLimitedtimeonly">"*For Limited time only"</string>
+    <string name="winnerWinscreen">Winner</string>
+    <string name="ExitGame">Exit Game</string>
+    <string name="Continue">Continue</string>
+    <string name="GetFreeChips">Get Free Chips</string>
+    <string name="EarnChips">Earn Chips</string>
+    <string name="Give5star">Give 5 star</string>
+    <string name="ratingAndreview">rating &amp; review</string>
+    <string name="LikeOn">Like On</string>
+    <string name="None_of_frnd_online"> None of your Friend is Online, Check back later!</string>
+    <string name="PostOn">Post On</string>
+    <string name="Online">Global</string>
+    <string name="Offline">Friends</string>
+    <string name="SelectAll">Select All</string>
+    <string name="EnterUserName">Enter Username</string>
+    <string name="Global">Global</string>
+    <string name="Invite">Invite</string>
+    <string name="FBFriends">FB Friends</string>
+    <string name="Initialbootvalue">Initial Boot Value</string>
+    <string name="Share">Share</string>
+    <string name="LastWeekWinner">Last Week Winner</string>
+    <string name="CurrentWeek">Current Week</string>
+    <string name="LastWeek">Last Week</string>
+    <string name="Reward">Reward</string>
+    <string name="NoDataAvailable">No Data Available</string>
+    <string name="blockbuddy">You haven\'t block any Player!</string>
+    <string name="nofriends">No Friends</string>
+    <string name="Extra">Extra 5x chips..</string>
+    <string name="TermandCondition">Term and Conditions</string>
+    <string name="Buddiesprofile">Buddies</string>
+    <string name="HandsPlayed">"Games Played"</string>
+    <string name="HandsPlayed2">"Total Games Played"</string>
+    <string name="HandsWon">"Games Won"</string>
+    <string name="HandsWon2">"Total Games Won"</string>
+    <string name="BiggestHandWon">"Biggest Hand Won"</string>
+    <string name="DailyReward_Msg">"Congratulations!! You got "</string>
+    <string name="Share_with_your_Friends">Share with your Friends</string>
+    <string name="magic_box_bonus">Magic Box Bonus</string>
+    <string name="DailyReward_Msg1">" Chips."</string>
+    <string name="Day">Day</string>
+    <string name="GiftShop">Gift Shop</string>
+    <string name="BuyForTable">Buy For Table</string>
+    <string name="Themes">Themes</string>
+    <string name="ThemePrice">"Theme Price : "</string>
+    <string name="BuyNow">Buy Now</string>
+    <string name="Like">Like</string>
+    <string name="Total">"Total : "</string>
+    <string name="ClaimAndShare">Share</string>
+    <string name="SendChips">Send Chips</string>
+    <string name="Blocked">Blocked</string>
+    <string name="profile_pic">Profile Pic!</string>
+    <string name="select_your_avatar">Select your Avatar</string>
+    <string name="requesttojointable">requested you to join the table.</string>
+    <string name="BootValue">Boot Value</string>
+    <string name="Join">Join</string>
+    <string name="sentyouchips">sent you chips.</string>
+    <string name="Send">Send</string>
+    <string name="UnblockUser">Unblock</string>
+    <string name="Accept">Accept</string>
+    <string name="AcceptAndSend">Send</string>
+    <string name="requesttosendChips">requested you to send some chips.</string>
+    <string name="buddyrequest">sent you Buddy request.</string>
+    <string name="Gallery">Gallery</string>
+    <string name="AvtarStore">Avatar Store</string>
+    <string name="MyAvtar">My Avatar</string>
+    <string name="Please_select_your_avatar_from_avatar_store">Please select your avatar from avatar store!</string>
+    <string name="Category">Category</string>
+    <string name="Name">Name</string>
+    <string name="InitialbetValue">Initial Boot Value</string>
+    <string name="MinChipsValue">Min. Chips Value</string>
+    <string name="ActivePlayers">Active Players</string>
+    <string name="NoTablesAvailable">No Tables Available..</string>
+    <string name="Unlock">Unlock</string>
+    <string name="VIP">" VIP "</string>
+    <string name="Room">Room</string>
+    <string name="unlock_content">Reach LEVEL 7\n &amp; \nexperience the VIP life.</string>
+    <string name="daily_noti"> Your Daily Reward is Ready! Claim your Bonus!</string>
+    <string name="hourly_noti"> Hurry up!! Your Hourly Bonus are ready! Tap to get them now!</string>
+    <string name="quest_noti"> You have unlocked new Quest. Lets Claim your Bonus!!</string>
+    <string name="achivement_noti"> You have unlocked new Achivement. Lets Claim your Bonus!!</string>
+    <string name="daily_noti2">Your Reward is ready! Claim your\nReward Chips NOW!</string>
+
+
+    <string name="Messages">Messages</string>
+    <string name="Inbox">Inbox</string>
+    <string name="reply">Reply</string>
+    <string name="Leaderboard">Leaderboard</string>
+    <string name="Facebook_Login_Requird">Facebook Login</string>
+    <string name="Please_login_with_facebook_to_invite_your_friends">Please login with facebook to invite your friends!</string>
+    <string name="Login">Login</string>
+    <string name="AddBuddy">Add As Buddy</string>
+    <string name="SendGift">Send Gift</string>
+    <string name="BlockUser">Block User</string>
+    <string name="Store">Store</string>
+    <string name="AskforChips">Ask for Chips</string>
+
+    <string name="challanegTitle">You Got Challanged!</string>
+
+    <string name="InviteCancelled">Invite Cancelled</string>
+    <string name="This_user_playing_on_a_table_with_intial_boot_value_of">"This user playing on a table with intial boot value of "</string>
+    <string name="But_he_is_playing_in_private_table_You_cannot_join_table">". But he is playing in private table. You cannot join table."</string>
+    <string name="GoToTable">Go To Table</string>
+
+    <string name="You_dont_have_sufficient_chips_to_play_on_this_table">You don\'t have sufficient chips to play on this table</string>
+    <string name="BuyChips">Buy Chips</string>
+    <string name="Info">Info</string>
+    <string name="Level">Level</string>
+    <string name="Buddies">Friends</string>
+    <string name="PlayNow">PLAY\n\n\nNOW</string>
+    <string name="PlayOnTable">PLAY\nON\nTABLE</string>
+    <string name="CreateCustomTablebtn">PLAY\n\n\nWi-Fi</string>
+    <string name="Please_enter_your_feedback">Please enter your feedback</string>
+    <string name="WeeklyContest">PLAY\n\n\nONLINE</string>
+    <string name="minigame">Mini Games</string>
+    <string name="HighestChipLevel">"-Highest Chip Level-"</string>
+    <string name="Enter_your_feedback_here">Enter your feedback here:</string>
+    <string name="EnterUserEmail">Enter your Email</string>
+    <string name="player_staticstic">Player\'s Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="FacebookConnect">Facebook Connect</string>
+    <string name="LogoutOf">Connect with </string>
+    <string name="Facebook"> Facebook</string>
+    <string name="Sound">Sound</string>
+    <string name="Google">Google Play Sign In</string>
+    <string name="Vibrate">Vibrate on Turn</string>
+    <string name="PushNotification">Notifications</string>
+    <string name="Challange">Challenge</string>
+    <string name="PrivacyAndPolicy">Privacy And Policy</string>
+    <string name="ChipsHistory">Chips History</string>
+
+    <string name="EarnChipsText">Want to be billionaire? Then bring more friends in the game.\nGet 10,000 free chips for each friends.</string>
+    <string name="HowToPlay">How To Play</string>
+    <string name="FreeChips">Free Chips</string>
+    <string name="Scratchcard">Scratch Card</string>
+    <string name="hilogame">Hi-Lo Game</string>
+    <string name="WeeklyContest1">Weekly Contest</string>
+    <string name="DailyReward">Daily Rewards</string>
+    <string name="TableInfo">Table Info</string>
+    <string name="PlayHilomessage">Play Hi-Lo game and win up to Millions of Chips!</string>
+    <string name="Coinstore">Coins Store</string>
+    <string name="Feedback">Feedback</string>
+    <string name="TermsOfService">Terms Of Services</string>
+    <string name="app_name">Gin Rummy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="interstitial_ads_id">ca-app-pub-4109577825364690/7427397966</string>
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">ago</string>
+    <!-- ago -->
+    <string name="time_ago_seconds">few seconds</string>
+    <string name="time_ago_minute">a minute</string>
+    <string name="time_ago_minutes">%d minutes</string>
+    <string name="time_ago_hour">an hour</string>
+    <string name="time_ago_hours">%d hours</string>
+    <string name="time_ago_day">a day</string>
+    <string name="time_ago_days">%d days</string>
+    <string name="time_ago_month">a month</string>
+    <string name="time_ago_months">%d months</string>
+    <string name="time_ago_year">a year</string>
+    <string name="time_ago_years">%d years</string>
+    <string name="Rs">Rs.</string>
+    <string name="weekly_contest_details">Finish in a top 3 position before the end of Week to Win more Chips!!</string>
+
+    <string-array name="notify_user_text">
+        <item>Your Daily Reward is ready! Claim your Bonus Chips NOW!</item>
+        <!--<item>Improve your Rummy skills by playing Gin Rummy</item>
+        <item>Do you need FREE CHIPS? Invite your more friends to get Free Chips!</item>
+        <item>Show your good character by helping your friends. Send them Chips!</item>
+        <item>Your friends are waiting for you. Join your friends only at Gin Rummy!</item>
+        <item>Join weekly Jackpot Tournament and win FREE CHIPS!</item>
+        <item>Complete entertainment guaranteed with thousands of players online only at Gin Rummy!</item>
+        <item>Are you feeling lonely? Make new friends by playing Gin Rummy anytime, anywhere.</item>
+        <item>Have you unlocked VIP Room? Unlock it now!</item>
+        <item>Safe your position on Weekly Contest! Be the first on Leaderboard to get Free Chips!</item>-->
+    </string-array>
+
+    <string name="newhelptext1">The goal of the game is to collect a hand where most or all of the cards can be\ncombined into sets and sequence and the point value of the remaining unmatched\ncards (Deadwood) is low.
+</string>
+    <string name="newhelptext2">You can end the play at your turn if, after drawing a card, you can form sufficient\nof your cards into valid combinations: sets and sequence. Any remaining cards from\nyour hand which are not part of a valid combination are called deadwood (Unmatched\ncards). The total value of your deadwood must be 10 points or less.
+</string>
+    <string name="newhelptext3">Knocking with no unmatched cards(Deadwood) at all is called GIN, and earns special bonus.
+</string>
+    <string name="newhelptext4">Each player counts the total value of their Deadwood (unmatched cards). If the\nknocker\'s count is lower, the knocker scores the difference between the two counts.
+</string>
+
+    <string name="newhelptext5">If the knocker did not go gin, and the counts are equal, or the knocker\'s count is\ngreater than that of the opponent, the knocker has been undercut. In this case\nthe knocker\'s opponent scores the difference between the counts plus a 25 point\nbonus.
+
+</string>
+
+    <string name="newhelptext6">A player who goes gin scores a bonus 25 points, plus the opponent\'s count in\nunmatched cards, if any. A player who goes gin can never be undercut. Even\nif the other player has no unmatched cards at all, the person going gin gets the 25\npoint bonus the other player scores nothing.
+
+</string>
+
+    <string name="newhelptext7">The game continues with further deals until one player\'s cumulative score reaches\n50 points or more point game.
+
+</string>
+
+    <string name="tut1">Take the Heap Card if needed, else you can SKIP turn by tapping on SKIP button...</string>
+    <string name="tut2">Choose from the Deck, or take the Heap Card...</string>
+    <string name="tut3">Tap on Deck to throw Selected Card, or you can throw it by double tapping...</string>
+    <string name="tut4">It\'s Opponents turn now...</string>
+    <string name="tut5">It display Total points required to win the game. When any of the player makes 50 or more points will be Winner of the game.</string>
+    <string name="tut6">It display Total game points you won. You can see Opponent\'s total game points on their profile picture. Try to get 50 points before any Opponent reaches.</string>
+    <string name="tut7">It is your DeadWood points, Which is the sum of all your non sequence/set cards. You can knock when your Deadwood points are lower than 11</string>
+    <string name="tut8">You may win the game by KNOCK if you think that Deadwood points are lower than Opponents.</string>
+    <string name="tut9">Tap on Deck to throw Selected Card, or you can throw it by double tapping...</string>
+    <string name="tut10">Excellent! You have won this hand! Tap on GIN to get GIN Bonus!</string>
+
+    <string name="tut20">"Easily alternate Tables to Play on different-different boot amount tables!"</string>
+    <string name="tut21">"Controls allow you to play easily with the help of buttons. You can ON/OFF as per your convenience!"</string>
+
+    <string name="helpText">- Get rid of all your cards to win.\n- Make pure sequences to spread.\n- Hit cards on opponents spread.\n- Remember discarded cards and keep eyes on opponents move.\n- Knock if you thinks that your total points is lower then your opponents.</string>
+    <string name="helptext1">Get rid of all your cards to win.</string>
+    <string name="helptext2">Make pure sequences to spread.</string>
+    <string name="helptext3">Hit cards on opponents spread.</string>
+    <string name="helptext4">Remember discarded cards and keep eyes on opponents move.</string>
+    <string name="helptext5">Knock if you thinks that your total points is lower then your opponents.</string>
+    <string name="at_about">ABOUT Gin Rummy</string>
+    <string name="at_1_goal">GOAL</string>
+    <string name="at_1_the_goal">The goal is to be the first player to get rid of all their cards or the player with the fewest points when play ends.</string>
+    <string name="at_1_rules">How to win</string>
+    <string name="at_1_cards">   10 cards are dealt to each player if it\'s a 2 players game.</string>
+    <string name="at_1_cards22">  7 cards are dealt to each player if it\'s a 3 players game.</string>
+    <string name="at_1_cards33">  When draw pile runs out,the player with fewest points wins.</string>
+    <string name="at_1_cards44">  Player have Knock button only when sum of cards are less than 11.</string>
+    <string name="at_1_cards55">  If a player Knocks,the player with the fewest points wins.</string>
+    <string name="at_1_cards66">  Knock if you think that your total points is lower than your opponents.</string>
+    <string name="at_2_each_player">Make pure sequence to win the game.</string>
+    <string name="at_2_to_get"> Make set of card to win the game.</string>
+    <string name="at_2_once">Once you spread it will add 3 blue dot in your account. It will remove 1 blue dot after your turn complete. It means that you will not be able to KNOCK until 3 turns.</string>
+    <string name="at_2_spread">\u0020SPREAD</string>
+    <string name="at_3_note">Note : An Ace can be spread with 2 and 3 , but Ace with King and Queen cannot be spread as it is considered as illegal.</string>
+    <string name="at_3_hit">\u0020Hit Existing Spreads</string>
+    <string name="at_3_a_player">A player can HIT their own spread or any players existing spreads , provided the spread is still legal spread after the hit. Below are some of the example on how “Hit” works.</string>
+    <string name="at_4_case1">Case 1 :- If you hit your own spread 1 dot will be added in your account.</string>
+    <string name="at_4_case2">Case 2:- If you hit your opponent spread 1 dot will be added in your account at the same time 1 dot will be added in your opponent account.</string>
+    <string name="at_5_knock">Knock :- When you should knock depends on a variety of factors, including the number of players in the game, card dis­tri­b­u­tion, who has the first move, what card they picked up or threw out, and whether spreading is possible.</string>
+    <string name="at_5_user">\u0020 \u0020 \u0020 \u0020 \u0020 \u0020User cannot knock game until all the blue dots below the picture is removed , remember the rule before you knock game , player with fewest points wins the game. If you think that you have lowest points then opponents then go ahead and KNOCK.</string>
+    <string name="at_5_ending">\u0020Ending the Game:</string>
+    <string name="at_5_ending1">1) A player who has no more cards after spreading , hitting or discarding to the discard pile wins.</string>
+    <string name="at_5_ending2">2) If a player Knocks, the player with the fewest points wins.</string>
+    <string name="at_5_ending3">3) When draw pile runs out , the player with fewest points wins.</string>
+    <string name="at_5_note">Note :- Please click on How to Play button for better understanding of the game.</string>
+
+    <string-array name="preloader_text">
+        <item>10 cards are dealt to each player if it is 2 players game ! </item>
+        <item>7 cards are dealt to each player if it is 3 players game ! </item>
+        <item>Make pure sequences to win the game !</item>
+        <item>Make set of cards to win the game !</item>
+        <item>Player have Knock button only when sum of cards are less than 11 ! </item>
+        <item>Knock if you thinks your total points is lower than opponents ! </item>
+        <item>If a player Knocks, the player with the fewest points wins ! </item>
+        <item>Remember discarded cards and keep eyes on opponents move ! </item>
+    </string-array>
+
+    <string name="Offers">Offers</string>
+    <string name="Luckydraw">Lucky\nDraw</string>
+    <string name="MagicBoxBonus">Magic Box Bonus</string>
+    <string name="Get">"Get "</string>
+    <string name="Now">Now</string>
+    <string name="Collect">Collect</string>
+    <string name="BuyCard">Buy Card</string>
+    <string name="MyCard">My Card</string>
+    <string name="Or">OR</string>
+    <string name="PlayNowBtn">Play Now</string>
+    <string name="Games">Games</string>
+    <string name="NoCards">You haven\'t selected any Card. Please\npurchase first</string>
+    <string name="BuyCardDesc">Choose any card and wait for the lucky card Annoucement At 5:30 AM(IST). If selected card matches with Lucky card you will get 1M chips for Free! If it\'s purchased card. You will get 5X Bonus Chips! Choose more cards to increase your Winning Chances.</string>
+    <string name="MyCardDesc">If your card matches with Lucky Card you will get 1M Chips for\nFREE! If it\'s purchased card, you will get 5X Bonus Chips! Winner will be declared at 05:30 AM (IST).</string>
+    <string name="GetFreeCard">Select Card</string>
+    <string name="please_select_lucky_card">Please select at least one Lucky Card!</string>
+    <string name="Your_purchase_could_not_be_process_Please_try_again">Your purchase could not be processed. Please try again!</string>
+    <string name="InviteFriends">Invite Friends</string>
+    <string name="Winner">Winner</string>
+    <string name="Buy">Buy</string>
+    <string name="Friends">"Friends"</string>
+    <string name="Loading">Loading...</string>
+    <string name="Message">Message</string>
+    <string name="PleaseWait">Please wait..</string>
+    <string name="OK">OK</string>
+    <string name="Problem_setting_up_inapp_billing">Problem setting up in-app billing</string>
+    <string name="Failed_to_query_inventory">Failed to query inventory</string>
+    <string name="There_is_some_problem_purchasing_this_pack">There is some problem purchasing this pack</string>
+    <string name="ErrorPurchasing">Error Purchasing</string>
+    <string name="Processing">Processing..</string>
+    <string name="PurchaseSuccessful">Purchase Successful</string>
+    <string name="Yes">Yes</string>
+    <string name="ErrorConsuming">Error While Consuming</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4109577825364690/2157195963</string>
+    <string name="admob_app_id">ca-app-pub-4109577825364690~2997198361</string>
+
+</resources>

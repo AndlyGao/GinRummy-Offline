@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <FrameLayout
+        android:id="@+id/pw_bk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="@drawable/main_bg" />
+
+    <ImageView
+        android:id="@+id/winner_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/closebtn"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/winner_linttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="1dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_wt_ctitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="10dp"
+            android:shadowColor="@color/black"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text="@string/winnerWinscreen"
+            android:textColor="@color/title_yellow"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pw_title_bk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/line3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/win_lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/win_linepart2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/win_frm1"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/p_imagebk">
+
+                    <utils.CircularImageView
+                        android:id="@+id/c_pic_second"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        app:border_color="@color/red"
+                        app:border_width="2dp" />
+
+                    <ImageView
+                        android:id="@+id/c_rank_second"
+                        android:layout_width="120dp"
+                        android:layout_height="63dp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="-10dp"
+                        android:layout_marginLeft="13dp"
+                        android:background="@drawable/winnertag"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/c_username_second"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:singleLine="false"
+                    android:text="Dharmesh"
+                    android:textColor="@color/yellow"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/winnerSecondChips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:drawableLeft="@drawable/small_chips"
+                    android:drawablePadding="3dp"
+                    android:text="5000"
+                    android:textColor="@color/title_yellow"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/llWinnerTwoScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/llRoundTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tvRoundStrTwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Round"
+                            android:textColor="@color/yellow"
+                            android:textSize="10sp" />
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/line3" />
+
+                        <TextView
+                            android:id="@+id/tvRoundTwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="10"
+                            android:textColor="@color/yellow"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llPointTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPointStrTwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Points"
+                            android:textColor="@color/yellow"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/line3" />
+
+                        <TextView
+                            android:id="@+id/tvPointTwo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="10"
+                            android:textColor="@color/title_yellow"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/win_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/profileline" />
+
+            <LinearLayout
+                android:id="@+id/win_linepart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/win_frm2"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/p_imagebk">
+
+                    <utils.CircularImageView
+                        android:id="@+id/c_pic_first"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        app:border_color="@color/red"
+                        app:border_width="2dp" />
+
+                    <ImageView
+                        android:id="@+id/c_rank_first"
+                        android:layout_width="120dp"
+                        android:layout_height="63dp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="-10dp"
+                        android:layout_marginLeft="13dp"
+                        android:background="@drawable/winnertag"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/c_username_first"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:singleLine="false"
+                    android:text="Dharmesh"
+                    android:textColor="@color/yellow"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/winnerOneChips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:drawableLeft="@drawable/small_chips"
+                    android:drawablePadding="3dp"
+                    android:text="5000"
+                    android:textColor="@color/title_yellow"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/llWinnerOneScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/llRoundOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tvRoundStrOne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Round"
+                            android:textColor="@color/yellow"
+                            android:textSize="10sp" />
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/line3" />
+
+                        <TextView
+                            android:id="@+id/tvRoundOne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="10"
+                            android:textColor="@color/yellow"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llPointOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPointStrOne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Points"
+                            android:textColor="@color/yellow"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/line3" />
+
+                        <TextView
+                            android:id="@+id/tvPointOne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="10"
+                            android:textColor="@color/title_yellow"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/win_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/profileline" />
+
+            <LinearLayout
+                android:id="@+id/win_linepart3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <FrameLayout
+                    android:id="@+id/win_frm3"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/p_imagebk">
+
+                    <utils.CircularImageView
+                        android:id="@+id/c_pic_third"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        app:border_color="@color/red"
+                        app:border_width="2dp" />
+
+                    <ImageView
+                        android:id="@+id/c_rank_third"
+                        android:layout_width="120dp"
+                        android:layout_height="63dp"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="-10dp"
+                        android:layout_marginLeft="13dp"
+                        android:background="@drawable/winnertag"
+                        android:visibility="invisible" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/c_username_third"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:singleLine="false"
+                    android:text="Siddharth"
+                    android:textColor="@color/yellow"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/winnerThirdChips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:drawableLeft="@drawable/small_chips"
+                    android:drawablePadding="3dp"
+                    android:text="5000"
+                    android:textColor="@color/title_yellow"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/llWinnerThreeScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/llRoundThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tvRoundStrThree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Round"
+                            android:textColor="@color/yellow"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/line3" />
+
+                        <TextView
+                            android:id="@+id/tvRoundThree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="10"
+                            android:textColor="@color/yellow"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llPointThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPointStrThree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Points"
+                            android:textColor="@color/yellow"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="3dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/line3" />
+
+                        <TextView
+                            android:id="@+id/tvPointThree"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="10"
+                            android:textColor="@color/title_yellow"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:id="@+id/win_lin_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal|bottom"
+         android:layout_marginBottom="50dp">
+-->
+    <Button
+        android:id="@+id/activity_winner_cont"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/profile_bg"
+        android:shadowColor="@color/black"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="@string/Continue"
+        android:textColor="@color/yellow"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/activity_winner_exit_game"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="170dp"
+        android:background="@drawable/p_btn"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="@string/ExitGame"
+        android:textColor="@color/yellow"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <!--   </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/ivHorSeperator1"
+        android:layout_width="550dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/ivHorSeperator2"
+        android:layout_width="550dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/NoDataAvailable"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llRoundTimerText"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/winnertimebk"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/winner_prepaired_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preparing for next round."
+            android:textColor="@color/yellow"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvRoundNumber"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/redround"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/yellow"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvSecondsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Seconds."
+            android:textColor="@color/yellow"
+            android:textSize="14sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</FrameLayout>

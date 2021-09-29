@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lnmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/popup"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quest Testing"
+            android:textColor="@color/yellow"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:background="@drawable/closebtn" />
+
+
+        <EditText
+            android:id="@+id/tvMessage"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@color/transperant"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="Enter Counter to Add"
+            android:lines="1"
+            android:maxLength="7"
+            android:textColor="@color/title_color_yellow"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/line3" />
+
+
+        <RadioGroup
+            android:id="@+id/radiogrpquest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdbtnGin"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="Gin"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rdbtnBigGin"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="Big Gin"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rdbtnKnock"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="Knock"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rdbtnStraight"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="Straight"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rdbtnOklahoma"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="Oklahoma"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rdbtnOfferwall"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="OfferWall"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rdbtnvideo"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="Video"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/rdbtnShare"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/skipbutton"
+                android:button="@null"
+                android:gravity="center"
+                android:text="Share"
+                android:textColor="@color/yellow"
+                android:textSize="12sp" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/get_free_card"
+            android:text="Add + "
+            android:textColor="@color/yellow"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSet"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/skipbutton"
+            android:text="Set"
+            android:textColor="@color/yellow"
+            android:textStyle="bold" />
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/llButtons"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal|top"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<FrameLayout-->
+        <!--android:id="@+id/lnwatchvideo"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ivwatchvideo"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:background="@drawable/videoicn"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:visibility="gone"/>-->
+
+        <!---->
+
+
+        <!--</FrameLayout>-->
+        <!--<FrameLayout-->
+        <!--android:id="@+id/lnofferwall"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_marginLeft="10dp">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ivofferwall"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:background="@drawable/icnofferwall2"-->
+        <!--/>-->
+        <!--<Button-->
+        <!--android:id="@+id/button1"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:background="@drawable/rate_chips_btn"-->
+        <!--android:text="Offer Wall"-->
+        <!--android:textColor="@color/yellow"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_gravity="center|bottom"/>-->
+
+        <!--</FrameLayout>-->
+
+
+        <!--<FrameLayout-->
+        <!--android:id="@+id/lnpurchse"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_marginLeft="10dp">-->
+        <!--<ImageView-->
+        <!--android:id="@+id/ivpurchese"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:background="@drawable/offer"-->
+        <!--android:layout_gravity="center"/>-->
+
+        <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:background="@drawable/rate_chips_btn"-->
+        <!--android:text="Buy Now"-->
+        <!--android:textColor="@color/yellow"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_gravity="center|bottom"/>-->
+
+        <!--</FrameLayout>-->
+
+
+        <!--</LinearLayout>-->
+
+
+        <!--<com.google.android.gms.ads.NativeExpressAdView-->
+        <!--android:layout_gravity="bottom|center"-->
+        <!--android:id="@+id/adView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--ads:adUnitId="ca-app-pub-4109577825364690/3462271569"-->
+        <!--&gt;-->
+        <!--</com.google.android.gms.ads.NativeExpressAdView>-->
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

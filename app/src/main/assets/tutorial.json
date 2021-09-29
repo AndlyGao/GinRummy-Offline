@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "_id": "53edf6c68cf16b3410000000",
+      "_ifeature": 0,
+      "cap": 449,
+      "catd": "Rookie",
+      "cn": "Rookie",
+      "maxbv": 2000,
+      "minbv": 500,
+      "minc": 500,
+      "rltu": 0,
+      "allowPlay": false
+    },
+    {
+      "_id": "53edf6e08cf16b3410000001",
+      "_ifeature": 0,
+      "cap": 277,
+      "catd": "Talented",
+      "cn": "Talented",
+      "maxbv": 6000,
+      "minbv": 3000,
+      "minc": 3000,
+      "rltu": 0,
+      "allowPlay": false
+    },
+    {
+      "_id": "5423c5368cf16ba00d000000",
+      "_ifeature": 0,
+      "cap": 234,
+      "catd": "This is Big Dog Room",
+      "cn": "Big Dog",
+      "maxbv": 14500,
+      "minbv": 7000,
+      "minc": 7000,
+      "rltu": 0,
+      "allowPlay": false
+    },
+    {
+      "_id": "56a86b6518d07a77231d3415",
+      "_ifeature": 0,
+      "cap": 83,
+      "catd": "This is a expert table",
+      "cn": "Expert",
+      "maxbv": 30000,
+      "minbv": 15000,
+      "minc": 15000,
+      "rltu": 0,
+      "allowPlay": false
+    },
+    {
+      "_id": "56a86baf18d07ae2231d3415",
+      "_ifeature": 0,
+      "cap": 8,
+      "catd": "This is a master category",
+      "cn": "Master",
+      "maxbv": 70000,
+      "minbv": 40000,
+      "minc": 40000,
+      "rltu": 0,
+      "allowPlay": false
+    },
+    {
+      "_id": "56a86bad18d07ae9231d3415",
+      "_ifeature": 0,
+      "cap": 68,
+      "catd": "This is a star.",
+      "cn": "Star",
+      "maxbv": 150000,
+      "minbv": 75000,
+      "minc": 75000,
+      "rltu": 0,
+      "allowPlay": true
+    },
+    {
+      "_id": "56f8d38318d07a7d47946d64",
+      "_ifeature": 0,
+      "cap": 260,
+      "catd": "Pro Category",
+      "cn": "Pro",
+      "maxbv": 350000,
+      "minbv": 200000,
+      "minc": 200000,
+      "rltu": 0,
+      "allowPlay": true
+    },
+    {
+      "_id": "56f8d38318d07aa645946d65",
+      "_ifeature": 0,
+      "cap": 48,
+      "catd": "Whales Category",
+      "cn": "Whales",
+      "maxbv": 700000,
+      "minbv": 400000,
+      "minc": 400000,
+      "rltu": 0,
+      "allowPlay": true
+    }
+  ]
+}

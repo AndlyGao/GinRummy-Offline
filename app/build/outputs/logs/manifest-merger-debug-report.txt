@@ -1,0 +1,762 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:1-263:12
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:1-263:12
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:1-263:12
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:1-263:12
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbfadceb0aefc83e0868a84478cf2996/hugo-runtime-1.2.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/59e85882746770d23405240f6ff8652d/multidex-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/60e6c7cb787cea52c48cf6ba9b9f6f87/facebook-android-sdk-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0d411fd3565912941bc7823e516216e/facebook-login-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/56c15298bf4e6a2a6fcef6375cb7bcc2/facebook-share-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7fece47b1c5a94c17222a2554c5e81bc/appcompat-v7-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/362e7c2e809c6774314676fb85490f6c/play-services-ads-11.8.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/587552c9ddbcbaa87862016a6207652b/facebook-places-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/96767c5ddaadb4b7487b657252bc4c1b/facebook-applinks-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca796e65aae1cb8504fde89290b4071f/facebook-messenger-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:21:1-53:12
+MERGED from [com.google.android.gms:play-services-games:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/d5574af4ae2a7269a4ef437b600e4c93/play-services-games-11.8.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/5913a2fdb111958c8e805cc2074c12e6/play-services-gass-11.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca0d70b9fddac1c77b3759060db3077e/play-services-drive-11.8.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbe0170920e7495e9ab5043e9e830e7f/play-services-tasks-11.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a09cba73b835c6c57c3a12601b352d37/support-v4-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/12612cfa345f40a6ae2c1e4b44a67d43/support-fragment-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/331e2ee13ceaaed2679910208b56b265/support-core-utils-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/77562acd18d72208d3ab82819caf47c2/cardview-v7-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/55b7c0415b5c077be444255dd7ac4074/customtabs-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/296d6c378e41b8d86adfbbd0cf738f14/support-media-compat-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/8b9d32272e4cc3a6145177ba87bdc2bc/animated-vector-drawable-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/4eea5035b0081faece715bfa397a749d/support-core-ui-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/55a4eaab577dfa10756bae4afef4e6d3/support-vector-drawable-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/04b5fb7db9d31745cd2a415f9f1ed83c/support-compat-27.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.wang.avi:library:2.1.3] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/69ced2c9869b69d7348c18bc6172c7e7/library-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/654f1cbeeb466cbfc09f664fcd2d33dd/circleimageview-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/fc5c1ed2e622a79448a9a09311d8a8cf/play-services-ads-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0378bc595c5cf3976976066efc7768f/play-services-games-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/228d8ff1565c8e54da7bf57cd792febf/play-services-ads-lite-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/88ec0a0cfd226dd98e9d6ad8c987425c/play-services-basement-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/94169ecbb4e956755eafe55966b96174/play-services-gass-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/1cef3dadcb486272f74a6706457da3cf/play-services-base-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c2ddc5a2a38bc73adfe0d6db03bd5508/play-services-drive-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/47751fb51665893000638c30af88a3a6/play-services-tasks-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/133ec7ea79fce2fd1c8b754d4786d7f0/runtime-1.0.3/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:1-263:12
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:1-263:12
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:1-263:12
+	package
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:8:5-11:85
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:8:5-11:85
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:8:5-11:85
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbfadceb0aefc83e0868a84478cf2996/hugo-runtime-1.2.1/AndroidManifest.xml:7:5-43
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbfadceb0aefc83e0868a84478cf2996/hugo-runtime-1.2.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/59e85882746770d23405240f6ff8652d/multidex-1.0.2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/59e85882746770d23405240f6ff8652d/multidex-1.0.2/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/60e6c7cb787cea52c48cf6ba9b9f6f87/facebook-android-sdk-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/60e6c7cb787cea52c48cf6ba9b9f6f87/facebook-android-sdk-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0d411fd3565912941bc7823e516216e/facebook-login-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0d411fd3565912941bc7823e516216e/facebook-login-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/56c15298bf4e6a2a6fcef6375cb7bcc2/facebook-share-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/56c15298bf4e6a2a6fcef6375cb7bcc2/facebook-share-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7fece47b1c5a94c17222a2554c5e81bc/appcompat-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7fece47b1c5a94c17222a2554c5e81bc/appcompat-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/362e7c2e809c6774314676fb85490f6c/play-services-ads-11.8.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/362e7c2e809c6774314676fb85490f6c/play-services-ads-11.8.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/587552c9ddbcbaa87862016a6207652b/facebook-places-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/587552c9ddbcbaa87862016a6207652b/facebook-places-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/96767c5ddaadb4b7487b657252bc4c1b/facebook-applinks-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/96767c5ddaadb4b7487b657252bc4c1b/facebook-applinks-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca796e65aae1cb8504fde89290b4071f/facebook-messenger-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca796e65aae1cb8504fde89290b4071f/facebook-messenger-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services-games:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/d5574af4ae2a7269a4ef437b600e4c93/play-services-games-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/d5574af4ae2a7269a4ef437b600e4c93/play-services-games-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/5913a2fdb111958c8e805cc2074c12e6/play-services-gass-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/5913a2fdb111958c8e805cc2074c12e6/play-services-gass-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca0d70b9fddac1c77b3759060db3077e/play-services-drive-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca0d70b9fddac1c77b3759060db3077e/play-services-drive-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbe0170920e7495e9ab5043e9e830e7f/play-services-tasks-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbe0170920e7495e9ab5043e9e830e7f/play-services-tasks-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a09cba73b835c6c57c3a12601b352d37/support-v4-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a09cba73b835c6c57c3a12601b352d37/support-v4-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/12612cfa345f40a6ae2c1e4b44a67d43/support-fragment-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/12612cfa345f40a6ae2c1e4b44a67d43/support-fragment-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/331e2ee13ceaaed2679910208b56b265/support-core-utils-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/331e2ee13ceaaed2679910208b56b265/support-core-utils-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/77562acd18d72208d3ab82819caf47c2/cardview-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/77562acd18d72208d3ab82819caf47c2/cardview-v7-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/55b7c0415b5c077be444255dd7ac4074/customtabs-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/55b7c0415b5c077be444255dd7ac4074/customtabs-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/296d6c378e41b8d86adfbbd0cf738f14/support-media-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/296d6c378e41b8d86adfbbd0cf738f14/support-media-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/8b9d32272e4cc3a6145177ba87bdc2bc/animated-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/8b9d32272e4cc3a6145177ba87bdc2bc/animated-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/4eea5035b0081faece715bfa397a749d/support-core-ui-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/4eea5035b0081faece715bfa397a749d/support-core-ui-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/55a4eaab577dfa10756bae4afef4e6d3/support-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/55a4eaab577dfa10756bae4afef4e6d3/support-vector-drawable-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/04b5fb7db9d31745cd2a415f9f1ed83c/support-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/04b5fb7db9d31745cd2a415f9f1ed83c/support-compat-27.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.wang.avi:library:2.1.3] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/69ced2c9869b69d7348c18bc6172c7e7/library-2.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/69ced2c9869b69d7348c18bc6172c7e7/library-2.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/654f1cbeeb466cbfc09f664fcd2d33dd/circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/654f1cbeeb466cbfc09f664fcd2d33dd/circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/fc5c1ed2e622a79448a9a09311d8a8cf/play-services-ads-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/fc5c1ed2e622a79448a9a09311d8a8cf/play-services-ads-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0378bc595c5cf3976976066efc7768f/play-services-games-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0378bc595c5cf3976976066efc7768f/play-services-games-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/228d8ff1565c8e54da7bf57cd792febf/play-services-ads-lite-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/228d8ff1565c8e54da7bf57cd792febf/play-services-ads-lite-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/88ec0a0cfd226dd98e9d6ad8c987425c/play-services-basement-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/88ec0a0cfd226dd98e9d6ad8c987425c/play-services-basement-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/94169ecbb4e956755eafe55966b96174/play-services-gass-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/94169ecbb4e956755eafe55966b96174/play-services-gass-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/1cef3dadcb486272f74a6706457da3cf/play-services-base-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/1cef3dadcb486272f74a6706457da3cf/play-services-base-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c2ddc5a2a38bc73adfe0d6db03bd5508/play-services-drive-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c2ddc5a2a38bc73adfe0d6db03bd5508/play-services-drive-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/47751fb51665893000638c30af88a3a6/play-services-tasks-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/47751fb51665893000638c30af88a3a6/play-services-tasks-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/133ec7ea79fce2fd1c8b754d4786d7f0/runtime-1.0.3/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/133ec7ea79fce2fd1c8b754d4786d7f0/runtime-1.0.3/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:8:5-11:85
+INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:8:5-11:85
+	tools:overrideLibrary
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:11:9-82
+	android:targetSdkVersion
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:14:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:16:22-63
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:19:22-77
+uses-permission#com.android.vending.BILLING
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:21:22-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:22:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:23:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:24:22-73
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:25:5-85
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:25:22-82
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:26:22-78
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:27:5-82
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:27:22-79
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:28:5-94
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:28:22-91
+application
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:30:5-261:19
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbfadceb0aefc83e0868a84478cf2996/hugo-runtime-1.2.1/AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.hugo:hugo-runtime:1.2.1] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbfadceb0aefc83e0868a84478cf2996/hugo-runtime-1.2.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/60e6c7cb787cea52c48cf6ba9b9f6f87/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/60e6c7cb787cea52c48cf6ba9b9f6f87/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0d411fd3565912941bc7823e516216e/facebook-login-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0d411fd3565912941bc7823e516216e/facebook-login-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/56c15298bf4e6a2a6fcef6375cb7bcc2/facebook-share-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/56c15298bf4e6a2a6fcef6375cb7bcc2/facebook-share-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/587552c9ddbcbaa87862016a6207652b/facebook-places-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/587552c9ddbcbaa87862016a6207652b/facebook-places-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/96767c5ddaadb4b7487b657252bc4c1b/facebook-applinks-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/96767c5ddaadb4b7487b657252bc4c1b/facebook-applinks-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca796e65aae1cb8504fde89290b4071f/facebook-messenger-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca796e65aae1cb8504fde89290b4071f/facebook-messenger-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.android.gms:play-services-games:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/d5574af4ae2a7269a4ef437b600e4c93/play-services-games-11.8.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/d5574af4ae2a7269a4ef437b600e4c93/play-services-games-11.8.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/5913a2fdb111958c8e805cc2074c12e6/play-services-gass-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/5913a2fdb111958c8e805cc2074c12e6/play-services-gass-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca0d70b9fddac1c77b3759060db3077e/play-services-drive-11.8.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca0d70b9fddac1c77b3759060db3077e/play-services-drive-11.8.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbe0170920e7495e9ab5043e9e830e7f/play-services-tasks-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/bbe0170920e7495e9ab5043e9e830e7f/play-services-tasks-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/654f1cbeeb466cbfc09f664fcd2d33dd/circleimageview-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/654f1cbeeb466cbfc09f664fcd2d33dd/circleimageview-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/fc5c1ed2e622a79448a9a09311d8a8cf/play-services-ads-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/fc5c1ed2e622a79448a9a09311d8a8cf/play-services-ads-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0378bc595c5cf3976976066efc7768f/play-services-games-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0378bc595c5cf3976976066efc7768f/play-services-games-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/228d8ff1565c8e54da7bf57cd792febf/play-services-ads-lite-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/228d8ff1565c8e54da7bf57cd792febf/play-services-ads-lite-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/88ec0a0cfd226dd98e9d6ad8c987425c/play-services-basement-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/88ec0a0cfd226dd98e9d6ad8c987425c/play-services-basement-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/94169ecbb4e956755eafe55966b96174/play-services-gass-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/94169ecbb4e956755eafe55966b96174/play-services-gass-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/1cef3dadcb486272f74a6706457da3cf/play-services-base-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/1cef3dadcb486272f74a6706457da3cf/play-services-base-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c2ddc5a2a38bc73adfe0d6db03bd5508/play-services-drive-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c2ddc5a2a38bc73adfe0d6db03bd5508/play-services-drive-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/47751fb51665893000638c30af88a3a6/play-services-tasks-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/47751fb51665893000638c30af88a3a6/play-services-tasks-license-11.8.0/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:37:9-36
+		REJECTED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/60e6c7cb787cea52c48cf6ba9b9f6f87/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:18-44
+		REJECTED from [com.facebook.android:facebook-login:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/c0d411fd3565912941bc7823e516216e/facebook-login-4.42.0/AndroidManifest.xml:28:18-44
+		REJECTED from [com.facebook.android:facebook-share:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/56c15298bf4e6a2a6fcef6375cb7bcc2/facebook-share-4.42.0/AndroidManifest.xml:28:18-44
+		REJECTED from [com.facebook.android:facebook-places:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/587552c9ddbcbaa87862016a6207652b/facebook-places-4.42.0/AndroidManifest.xml:28:18-44
+		REJECTED from [com.facebook.android:facebook-applinks:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/96767c5ddaadb4b7487b657252bc4c1b/facebook-applinks-4.42.0/AndroidManifest.xml:28:18-44
+		REJECTED from [com.facebook.android:facebook-messenger:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/ca796e65aae1cb8504fde89290b4071f/facebook-messenger-4.42.0/AndroidManifest.xml:28:18-44
+		REJECTED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:35:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:33:9-43
+	android:largeHeap
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:36:9-33
+	android:icon
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:34:9-41
+	android:allowBackup
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:32:9-36
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:38:9-73
+	tools:replace
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:39:9-91
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:31:9-47
+meta-data#com.google.android.gms.version
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:40:9-42:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2f479e02e475be5cda06ce79f3771972/play-services-basement-11.8.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:42:13-66
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:41:13-58
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:43:9-45:46
+	android:value
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:45:13-43
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:44:13-63
+activity#eu.janmuller.android.simplecropimage.CropImage
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:47:9-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:47:19-80
+receiver#utils.NotifyUser
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:49:9-51:42
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:51:13-39
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:50:13-44
+service#utils.OnClearFromRecentService
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:53:9-55:44
+	android:stopWithTask
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:55:13-41
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:54:13-58
+activity#com.ironsource.sdk.controller.ControllerActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:57:9-60:51
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:60:13-48
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:59:13-59
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:58:13-76
+activity#com.ironsource.sdk.controller.InterstitialActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:61:9-65:64
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:64:13-48
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:63:13-59
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:65:13-61
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:62:13-78
+activity#com.ironsource.sdk.controller.OpenUrlActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:66:9-70:64
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:69:13-48
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:68:13-59
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:70:13-61
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:67:13-73
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:71:9-74:64
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/e5c53c361a1cbcb8a36754ee28bf8619/play-services-ads-lite-11.8.0/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:73:13-122
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:74:13-61
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:72:13-65
+activity#com.chartboost.sdk.CBImpressionActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:75:9-81:53
+	android:excludeFromRecents
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:78:13-46
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:79:13-47
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:77:13-74
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:80:13-83
+	tools:replace
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:81:13-50
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:76:13-67
+activity#com.unity3d.ads.adunit.AdUnitActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:82:9-86:74
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:85:13-47
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:84:13-170
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:86:13-71
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:83:13-65
+activity#com.unity3d.ads.adunit.AdUnitSoftwareActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:87:9-91:74
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:90:13-48
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:89:13-170
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:91:13-71
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:88:13-73
+activity#com.artoon.ginrummyoffline.Login
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:92:9-110:20
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:96:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:95:13-45
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:94:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:93:13-34
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:97:13-109:29
+	tools:ignore
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:97:28-58
+action#android.intent.action.MAIN
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:98:17-69
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:98:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:100:17-77
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:100:27-74
+action#android.intent.action.VIEW
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:103:17-69
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:103:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:105:17-76
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:105:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:106:17-78
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:106:27-75
+activity#com.artoon.ginrummyoffline.PlayScreen2
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:111:9-118:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:118:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:116:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:117:13-44
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:115:13-47
+	android:exported
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:114:13-36
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:113:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:112:13-40
+activity#com.artoon.ginrummyoffline.ActivityQuestAchivement
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:119:9-124:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:124:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:122:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:123:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:121:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:120:13-52
+activity#com.artoon.ginrummyoffline.DailyBonus3
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:125:9-130:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:130:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:128:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:129:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:127:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:126:13-40
+activity#com.artoon.ginrummyoffline.Activity_Profile
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:131:9-143:20
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:136:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:134:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:135:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:133:13-96
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:137:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:132:13-45
+intent-filter#action:name:android.intent.action.ACTIVITY_PROFILE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:138:13-142:29
+action#android.intent.action.ACTIVITY_PROFILE
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:139:17-81
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:139:25-78
+activity#com.artoon.ginrummyoffline.Coin_per
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:144:9-157:20
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:150:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:148:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:149:13-44
+	android:hardwareAccelerated
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:147:13-47
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:146:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:151:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:145:13-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:152:13-156:29
+activity#com.artoon.ginrummyoffline.Activity_Tables
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:158:9-163:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:163:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:161:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:162:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:160:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:159:13-44
+activity#com.artoon.ginrummyoffline.Activity_Point_Select
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:164:9-169:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:169:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:167:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:168:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:166:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:165:13-50
+activity#com.artoon.ginrummyoffline.Dashboard
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:170:9-175:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:175:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:173:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:174:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:172:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:171:13-38
+activity#com.artoon.ginrummyoffline.Select_Mode
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:176:9-181:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:181:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:179:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:180:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:178:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:177:13-40
+activity#com.artoon.ginrummyoffline.HowToPlay
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:182:9-188:56
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:187:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:185:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:186:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:184:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:188:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:183:13-38
+activity#com.artoon.ginrummyoffline.Activity_GameWinner
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:189:9-195:56
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:194:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:192:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:193:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:191:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:195:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:190:13-48
+activity#com.artoon.ginrummyoffline.Scorboard
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:196:9-202:56
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:201:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:199:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:200:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:198:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:202:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:197:13-38
+activity#com.artoon.ginrummyoffline.RoundWinner
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:203:9-209:56
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:208:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:206:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:207:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:205:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:209:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:204:13-40
+activity#com.artoon.ginrummyoffline.Activity_Help
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:210:9-216:56
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:215:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:213:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:214:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:212:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:216:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:211:13-42
+activity#com.artoon.ginrummyoffline.WebActivity
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:217:9-223:56
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:222:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:220:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:221:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:219:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:223:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:218:13-40
+activity#com.artoon.ginrummyoffline.ActivityRateUs
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:224:9-230:56
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:229:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:227:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:228:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:226:13-83
+	android:theme
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:230:13-53
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:225:13-43
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:232:9-234:55
+	android:value
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:234:13-52
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:233:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:236:9-239:39
+	android:authorities
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:238:13-90
+	android:exported
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:239:13-36
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:237:13-64
+activity#com.artoon.ginrummyoffline.SpinEarn
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:241:9-246:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:246:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:244:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:245:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:243:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:242:13-37
+activity#com.artoon.ginrummyoffline.Setting
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:247:9-252:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:252:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:250:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:251:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:249:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:248:13-36
+activity#com.artoon.ginrummyoffline.Real_HowPlay
+ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:254:9-259:59
+	android:screenOrientation
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:259:13-56
+	android:label
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:257:13-45
+	android:launchMode
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:258:13-44
+	android:configChanges
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:256:13-83
+	android:name
+		ADDED from /Users/savanmacbook/Desktop/GinRummy-Offline/app/src/main/AndroidManifest.xml:255:13-41
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/a6c972c8aeeb5dc8e340389dc1f4b676/facebook-common-4.42.0/AndroidManifest.xml:34:19-64
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/2ea55ba67b03c83afe712365a32992b9/facebook-core-4.42.0/AndroidManifest.xml:48:25-92
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/savanmacbook/.gradle/caches/transforms-2/files-2.1/7954f48c95381b03e843b82b1dea3a06/play-services-base-11.8.0/AndroidManifest.xml:24:13-79

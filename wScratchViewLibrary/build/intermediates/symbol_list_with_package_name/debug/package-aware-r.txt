@@ -1,0 +1,11 @@
+com.winsontan520
+attr antiAlias
+attr overlayColor
+attr revealSize
+attr scratchDrawable
+attr scratchable
+drawable ic_launcher
+string app_name
+style AppBaseTheme
+style AppTheme
+styleable WScratchView antiAlias overlayColor revealSize scratchDrawable scratchable

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_spin" />
+
+    <TextView
+        android:id="@+id/tvTitle_spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_title"
+        android:gravity="center"
+        android:text="Spin Bonus"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/close_spin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|right"
+        android:background="@drawable/btn_close" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_chip1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Click Spin to collect "
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_chip1"
+            android:layout_width="50px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/small_chips" />
+
+        <TextView
+            android:id="@+id/tv_chip2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="chips"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_spinner"
+        android:layout_width="590px"
+        android:layout_height="590px"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="120px"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:id="@+id/spinners"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotation="0"
+            android:src="@drawable/spinners" />
+
+        <ImageView
+            android:id="@+id/spinner_outer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/spinner_point"
+            android:layout_width="90px"
+            android:layout_height="130px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-40px"
+            android:src="@drawable/pointer_spin" />
+
+        <ImageView
+            android:id="@+id/tv_btn_spin"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_start" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

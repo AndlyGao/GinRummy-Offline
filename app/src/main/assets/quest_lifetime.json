@@ -1,0 +1,238 @@
+[
+  {
+    "task_id": "0",
+    "task_name": "Big Gin (Normal Mode)",
+    "task_sort_name": "Big Gin (Normal Mode)",
+    "task_complete": "Completed",
+    "array_time": [
+      50,
+      100,
+      250,
+      500,
+      1000,
+      5000
+    ],
+    "array_reward": [
+      50000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ]
+  },
+  {
+    "task_id": "1",
+    "task_name": "Gin (Normal Mode)",
+    "task_sort_name": "Gin (Normal Mode)",
+    "task_complete": "Completed",
+    "array_time": [
+      50,
+      100,
+      250,
+      500,
+      1000,
+      5000
+    ],
+    "array_reward": [
+      50000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ]
+  },
+  {
+    "task_id": "2",
+    "task_name": "Knock (Normal Mode)",
+    "task_sort_name": "Knock (Normal Mode)",
+    "task_complete": "Completed",
+    "array_time": [
+      250,
+      500,
+      1000,
+      5000,
+      10000,
+      50000
+    ],
+    "array_reward": [
+      25000,
+      50000,
+      100000,
+      500000,
+      1000000,
+      5000000
+    ]
+  },
+  {
+    "task_id": "3",
+    "task_name": "Won Straight Mode",
+    "task_sort_name": "Won Straight Mode",
+    "task_complete": "Won",
+    "array_time": [
+      100,
+      250,
+      500,
+      1000,
+      5000,
+      10000
+    ],
+    "array_reward": [
+      25000,
+      50000,
+      100000,
+      500000,
+      1000000,
+      5000000
+    ]
+  },
+  {
+    "task_id": "4",
+    "task_name": "Won Oklahoma Mode",
+    "task_sort_name": "Won Oklahoma Mode",
+    "task_complete": "Won",
+    "array_time": [
+      100,
+      250,
+      500,
+      1000,
+      5000,
+      10000
+    ],
+    "array_reward": [
+      25000,
+      50000,
+      100000,
+      500000,
+      1000000,
+      5000000
+    ]
+  },
+  {
+    "task_id": "5",
+    "task_name": "Offer Wall",
+    "task_sort_name": "Offer Wall",
+    "task_complete": "Completed",
+    "array_time": [
+      50,
+      100,
+      250,
+      500,
+      1000,
+      5000
+    ],
+    "array_reward": [
+      50000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ]
+  },
+  {
+    "task_id": "6",
+    "task_name": "Watch Video",
+    "task_sort_name": "Video",
+    "task_complete": "Watched",
+    "array_time": [
+      50,
+      100,
+      250,
+      500,
+      1000,
+      5000
+    ],
+    "array_reward": [
+      10000,
+      20000,
+      50000,
+      100000,
+      200000,
+      1000000
+    ]
+  },
+  {
+    "task_id": "7",
+    "task_name": "Share",
+    "task_sort_name": "Share",
+    "task_complete": "Shared",
+    "array_time": [
+      50,
+      100,
+      250,
+      500,
+      1000,
+      5000
+    ],
+    "array_reward": [
+      50000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ]
+  },
+  {
+    "task_id": "8",
+    "task_name": "Remove Ads",
+    "task_sort_name": "Ads",
+    "task_complete": "Completed",
+    "array_time": [
+      1
+    ],
+    "array_reward": [
+      250000
+    ]
+  },
+  {
+    "task_id": "9",
+    "task_name": "Buy Pack $1.49",
+    "task_sort_name": "Buy",
+    "task_complete": "Completed",
+    "array_time": [
+      1
+    ],
+    "array_reward": [
+      25000
+    ]
+  },
+  {
+    "task_id": "10",
+    "task_name": "Buy Pack $3.49",
+    "task_sort_name": "Buy",
+    "task_complete": "Completed",
+    "array_time": [
+      1
+    ],
+    "array_reward": [
+      125000
+    ]
+  },
+  {
+    "task_id": "11",
+    "task_name": "Buy Pack $5.99",
+    "task_sort_name": "Buy",
+    "task_complete": "Completed",
+    "array_time": [
+      1
+    ],
+    "array_reward": [
+      375000
+    ]
+  },
+  {
+    "task_id": "12",
+    "task_name": "Buy Pack $11.99",
+    "task_sort_name": "Buy",
+    "task_complete": "Completed",
+    "array_time": [
+      1
+    ],
+    "array_reward": [
+      1250000
+    ]
+  }
+]

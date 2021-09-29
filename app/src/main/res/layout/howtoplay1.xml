@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lineheader"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:text="@string/HowToPlay"
+            android:textColor="@color/title_yellow"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvBasicText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ABCD"
+            android:textColor="@color/yellow"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/llRule1Container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivStar1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:id="@+id/tvRule1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/at_1_cards"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRule2Container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivStar2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:id="@+id/tvRule2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/at_1_cards22"
+                android:textColor="@color/yellow"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvSequenceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sequence"
+            android:textColor="@color/title_yellow"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ivSubHeadSep1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/line3" />
+
+        <LinearLayout
+            android:id="@+id/llSequenceCardContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard1"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/c11" />
+
+                <ImageView
+                    android:id="@+id/ivCard2"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/c12" />
+
+                <ImageView
+                    android:id="@+id/ivCard3"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="46dp"
+                    android:background="@drawable/c13" />
+
+                <ImageView
+                    android:id="@+id/ivValidSign1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@drawable/yse" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frmSecondSeqContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard4"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/f2" />
+
+                <ImageView
+                    android:id="@+id/ivCard5"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/f3" />
+
+                <ImageView
+                    android:id="@+id/ivCard6"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="46dp"
+                    android:background="@drawable/f4" />
+
+                <ImageView
+                    android:id="@+id/ivCard7"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="69dp"
+                    android:background="@drawable/f5" />
+
+                <ImageView
+                    android:id="@+id/ivValidSign2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@drawable/yse" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frmThirdSeqContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard8"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/k13" />
+
+                <ImageView
+                    android:id="@+id/ivCard9"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/k1" />
+
+                <ImageView
+                    android:id="@+id/ivCard10"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="46dp"
+                    android:background="@drawable/k2" />
+
+                <ImageView
+                    android:id="@+id/ivValidSign3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@drawable/close" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line" />
+
+
+        <TextView
+            android:id="@+id/tvSetsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Sets"
+            android:textColor="@color/title_yellow"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ivSubHeadSep2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/line3" />
+
+        <LinearLayout
+            android:id="@+id/llSetCardContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard11"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/c12" />
+
+                <ImageView
+                    android:id="@+id/ivCard12"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/k12" />
+
+                <ImageView
+                    android:id="@+id/ivCard13"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="46dp"
+                    android:background="@drawable/f12" />
+
+                <ImageView
+                    android:id="@+id/ivValidSign4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@drawable/yse" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frmSetOneContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard14"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/c2" />
+
+                <ImageView
+                    android:id="@+id/ivCard15"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/k2" />
+
+                <ImageView
+                    android:id="@+id/ivCard16"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="46dp"
+                    android:background="@drawable/f2" />
+
+
+                <ImageView
+                    android:id="@+id/ivValidSign5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@drawable/yse" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frmSetTwoContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:id="@+id/ivCard18"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/l7" />
+
+                <ImageView
+                    android:id="@+id/ivCard19"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/k7" />
+
+                <ImageView
+                    android:id="@+id/ivCard20"
+                    android:layout_width="42dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="46dp"
+                    android:background="@drawable/f10" />
+
+                <ImageView
+                    android:id="@+id/ivValidSign6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@drawable/close" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
